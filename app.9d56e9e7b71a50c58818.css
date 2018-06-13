@@ -14377,14 +14377,6 @@ div:last-child .exchange-bordered {
   color: #cccccc;
 }
 
-.darkTheme .react-stockcharts-tooltip {
-  fill: #ffffff;
-}
-
-.darkTheme .react-stockcharts-tooltip-label {
-  fill: #1ec3fa;
-}
-
 .darkTheme div.custom-dropdown-content {
   background: #3f3f3f;
   color: #ffffff;
@@ -16870,14 +16862,6 @@ div:last-child .exchange-bordered {
 .lightTheme .nodes-header.inactive {
   border-bottom-color: transparent;
   color: #5c5c5c;
-}
-
-.lightTheme .react-stockcharts-tooltip {
-  fill: #242424;
-}
-
-.lightTheme .react-stockcharts-tooltip-label {
-  fill: #337ab7;
 }
 
 .lightTheme div.custom-dropdown-content {
@@ -19369,14 +19353,6 @@ div:last-child .exchange-bordered {
 .midnightTheme .nodes-header.inactive {
   border-bottom-color: transparent;
   color: #adadad;
-}
-
-.midnightTheme .react-stockcharts-tooltip {
-  fill: #e0e0e0;
-}
-
-.midnightTheme .react-stockcharts-tooltip-label {
-  fill: #049cce;
 }
 
 .midnightTheme div.custom-dropdown-content {
