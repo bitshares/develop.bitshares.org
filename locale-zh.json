@@ -928,7 +928,6 @@
         "scan_qr_code": "Scan QR code"
     },
     "header": {
-        "accounts_manage": "管理帐户",
         "account": "账户",
         "account_notify": "当前活跃账户为 %(account)s",
         "account_value": "账户价值",
@@ -957,7 +956,6 @@
         "update_asset": "更新资产"
     },
     "icons": {
-        "accounts_manage": "管理帐户",
         "adjust": "Adjust margin position",
         "assets": "Assets",
         "checkmark_circle": {
