@@ -11277,7 +11277,7 @@ ul.dropdown.header-menu li.desktop-only {
   max-height: 110px;
   width: 340px;
   background-color: #999;
-  opacity: 0.4;
+  opacity: 0.75;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
@@ -11349,7 +11349,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @-webkit-keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
   }
   40% {
@@ -11358,7 +11360,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
@@ -11383,7 +11387,7 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 .circle:before {
-  content: '';
+  content: "";
   display: block;
   margin: 0 auto;
   width: 20%;
@@ -11458,8 +11462,8 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 .circle3:before {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+  -webkit-animation-delay: -1s;
+  animation-delay: -1s;
 }
 
 .circle4:before {
@@ -11508,7 +11512,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @-webkit-keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
   }
   40% {
@@ -11517,7 +11523,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
     transform: scale(0);
   }
@@ -11551,7 +11559,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @-webkit-keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     -webkit-transform: scale(0);
   }
   40% {
@@ -11560,7 +11570,9 @@ ul.dropdown.header-menu li.desktop-only {
 }
 
 @keyframes bouncedelay {
-  0%, 80%, 100% {
+  0%,
+  80%,
+  100% {
     transform: scale(0);
     -webkit-transform: scale(0);
   }
@@ -11968,6 +11980,7 @@ div.api-status a:hover .hover-icon {
 }
 
 .active-node {
+  position: relative;
   margin-bottom: 2em;
 }
 
