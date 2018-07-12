@@ -9731,6 +9731,10 @@ div.input-wrapper > div.input-right-symbol {
   height: inherit;
 }
 
+div#CenterContent {
+  padding-bottom: 2rem !important;
+}
+
 .market-layout > .left-column {
   border-right: 1px solid rgba(128, 128, 128, 0.45);
   border-top: none;
