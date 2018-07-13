@@ -20481,48 +20481,57 @@ ul > li {
   top: 1px;
 }
 
-.icon > svg, span.icon {
+.icon > svg,
+span.icon {
   width: 1rem;
   height: 1rem;
 }
 
-.icon-14px > svg, span.icon-14px {
+.icon-14px > svg,
+span.icon-14px {
   width: 16px;
   height: 16px;
 }
 
-.icon-32px > svg, span.icon-32px {
+.icon-32px > svg,
+span.icon-32px {
   width: 32px;
   height: 32px;
 }
 
-.icon-1_5x > svg, span.icon-1_5x {
+.icon-1_5x > svg,
+span.icon-1_5x {
   width: 1.5rem;
   height: 1.5rem;
 }
 
-.icon-2x > svg, span.icon-2x {
+.icon-2x > svg,
+span.icon-2x {
   width: 2rem;
   height: 2rem;
 }
 
-.icon-3x > svg, span.icon-3x {
+.icon-3x > svg,
+span.icon-3x {
   width: 3.45rem;
   height: 3.45rem;
 }
 
-.icon-4x > svg, span.icon-4x {
-  width: 4.60rem;
-  height: 4.60rem;
+.icon-4x > svg,
+span.icon-4x {
+  width: 4.6rem;
+  height: 4.6rem;
 }
 
-.icon-5x > svg, span.icon-5x {
+.icon-5x > svg,
+span.icon-5x {
   width: 5.75rem;
   height: 5.75rem;
   margin: 24px 0 24px 0;
 }
 
-.icon-10x > svg, span.icon-10x {
+.icon-10x > svg,
+span.icon-10x {
   width: 10rem;
   height: 10rem;
   margin: 24px 0 24px 0;
@@ -20534,6 +20543,10 @@ ul > li {
 
 .icon.rotate90 > svg {
   transform: rotate(90deg);
+}
+
+.icon.rotate180 > svg {
+  transform: rotate(180deg);
 }
 
 .left-td {
