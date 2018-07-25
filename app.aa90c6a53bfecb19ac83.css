@@ -11715,6 +11715,10 @@ ul.dropdown.header-menu li.desktop-only {
   text-transform: none !important;
 }
 
+label.ant-checkbox-wrapper > span {
+  text-transform: none;
+}
+
 .pagination {
   display: inline-block;
   padding: 1rem;
