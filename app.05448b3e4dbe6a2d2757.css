@@ -9166,6 +9166,11 @@ table.table.dashboard-table > tbody > tr > td:first-of-type {
   padding-left: 1.5rem;
 }
 
+table.table.dashboard-table > thead > tr > th:last-of-type,
+table.table.dashboard-table > tbody > tr > td:last-of-type {
+  padding-right: 1.5rem;
+}
+
 table.table.dashboard-table > thead > tr > th {
   font-family: 'Roboto-Medium', arial, sans-serif;
   font-weight: normal;
