@@ -13056,6 +13056,10 @@ div:last-child .exchange-bordered {
   border-color: #cccccc;
 }
 
+.darkTheme .button.outline span {
+  color: #ffffff !important;
+}
+
 .darkTheme .button.outline:hover {
   color: #fff;
   border-color: #fff;
@@ -15558,6 +15562,10 @@ div:last-child .exchange-bordered {
 .lightTheme .button.outline {
   color: #5c5c5c;
   border-color: #5c5c5c;
+}
+
+.lightTheme .button.outline span {
+  color: #242424 !important;
 }
 
 .lightTheme .button.outline:hover {
@@ -18066,6 +18074,10 @@ div:last-child .exchange-bordered {
 .midnightTheme .button.outline {
   color: #adadad;
   border-color: #adadad;
+}
+
+.midnightTheme .button.outline span {
+  color: #e0e0e0 !important;
 }
 
 .midnightTheme .button.outline:hover {
