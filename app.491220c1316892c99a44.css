@@ -11957,13 +11957,20 @@ div.api-node > div {
   padding-left: 1rem;
 }
 
-div.api-node > div:nth-child(1) {
+div.api-node > div.api-node-left {
   width: 50%;
 }
 
-div.api-node > div:nth-child(1) > p:nth-child(2) {
+div.api-node > div.api-node-left > p.api-node-url {
   overflow-wrap: break-word;
   font-size: 80%;
+}
+
+div.api-node > div.api-node-left > p.api-node-operator {
+  overflow-wrap: break-word;
+  font-size: 80%;
+  float: right;
+  color: gray;
 }
 
 div.api-node > div:nth-child(2) {
