@@ -20097,6 +20097,12 @@ hr {
   padding: 0 !important;
 }
 
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  .small-no-padding {
+    padding: 0 !important;
+  }
+}
+
 .no-margin {
   margin: 0 !important;
 }
