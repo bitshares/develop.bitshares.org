@@ -12036,7 +12036,8 @@ div.api-status a:hover .hover-icon {
   border-bottom: none;
 }
 
-.table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
   background-color: #f5f5f5;
 }
 
@@ -12048,7 +12049,8 @@ div.api-status a:hover .hover-icon {
   text-align: right;
 }
 
-.table.compact td, .table.compact th {
+.table.compact td,
+.table.compact th {
   font-size: 94%;
 }
 
@@ -12059,6 +12061,15 @@ div.api-status a:hover .hover-icon {
   display: block;
   max-width: 100%;
   width: 100vw;
+}
+
+th.is-sortable {
+  cursor: pointer;
+}
+
+th.is-sortable.is-active {
+  text-decoration: underline;
+  text-underline-position: under;
 }
 
 div.account-tabs.with-buttons ul {
