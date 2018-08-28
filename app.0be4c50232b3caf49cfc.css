@@ -13606,14 +13606,8 @@ div:last-child .exchange-bordered {
   color: #b3b3b3;
 }
 
-.darkTheme ul.button-group > li.is-active > a, .darkTheme ul.button-group.segmented > li.is-active > a {
-  background: #049cce;
-  color: #ffffff;
-  border-bottom: 1px solid #049cce;
-}
-
-.darkTheme ul.button-group > li > a, .darkTheme ul.button-group.segmented > li > a {
-  background: #999999;
+.darkTheme ul.button-group.segmented > li.is-active > a {
+  background: #2d2d2d;
   color: #ffffff;
   border-bottom: 1px solid #049cce;
 }
@@ -16124,14 +16118,8 @@ div:last-child .exchange-bordered {
   color: #636363;
 }
 
-.lightTheme ul.button-group > li.is-active > a, .lightTheme ul.button-group.segmented > li.is-active > a {
-  background: #2196f3;
-  color: #242424;
-  border-bottom: 1px solid #2196f3;
-}
-
-.lightTheme ul.button-group > li > a, .lightTheme ul.button-group.segmented > li > a {
-  background: #999999;
+.lightTheme ul.button-group.segmented > li.is-active > a {
+  background: #ebebeb;
   color: #242424;
   border-bottom: 1px solid #2196f3;
 }
@@ -18646,14 +18634,8 @@ div:last-child .exchange-bordered {
   color: #7a7a7a;
 }
 
-.midnightTheme ul.button-group > li.is-active > a, .midnightTheme ul.button-group.segmented > li.is-active > a {
-  background: #049cce;
-  color: #e0e0e0;
-  border-bottom: 1px solid #049cce;
-}
-
-.midnightTheme ul.button-group > li > a, .midnightTheme ul.button-group.segmented > li > a {
-  background: #546979;
+.midnightTheme ul.button-group.segmented > li.is-active > a {
+  background: #1b1c22;
   color: #e0e0e0;
   border-bottom: 1px solid #049cce;
 }
