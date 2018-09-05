@@ -12541,6 +12541,13 @@ div:last-child .exchange-bordered {
   margin-bottom: 0 !important;
 }
 
+.ant-form-item .ant-form-item-label label {
+  text-transform: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  display: inline;
+}
+
 .rc-time-picker-panel {
   z-index: 9999 !important;
 }
@@ -12713,6 +12720,29 @@ div:last-child .exchange-bordered {
 
 .darkTheme {
   /* Table view account */
+}
+
+.darkTheme .explore-witness--info {
+  width: 100%;
+  border: 1px solid #565656;
+  background: transparent;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.darkTheme .explore-witness--info table {
+  width: 100%;
+}
+
+.darkTheme .explore-witness--info table thead th {
+  font-weight: 400;
+  color: #afafaf;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.darkTheme .explore-witness--info table tbody td {
+  color: #fff;
 }
 
 .darkTheme #incognito {
@@ -13472,52 +13502,52 @@ div:last-child .exchange-bordered {
   border-color: #ff3950;
 }
 
-.darkTheme input[type="text"],
-.darkTheme input[type="password"],
-.darkTheme input[type="email"],
-.darkTheme input[type="number"],
-.darkTheme input[type="search"],
-.darkTheme textarea,
-.darkTheme input[role="combobox"],
-.darkTheme select[role="combobox"] {
+.darkTheme input[type="text"]:not([class*="ant-"]),
+.darkTheme input[type="password"]:not([class*="ant-"]),
+.darkTheme input[type="email"]:not([class*="ant-"]),
+.darkTheme input[type="number"]:not([class*="ant-"]),
+.darkTheme input[type="search"]:not([class*="ant-"]),
+.darkTheme textarea:not([class*="ant-"]),
+.darkTheme input[role="combobox"]:not([class*="ant-"]),
+.darkTheme select[role="combobox"]:not([class*="ant-"]) {
   background-color: #2d2d2d;
   border: 0;
   color: #ffffff;
 }
 
-.darkTheme input[type="text"]:hover, .darkTheme input[type="text"]:focus, .darkTheme input[type="text"]:active,
-.darkTheme input[type="password"]:hover,
-.darkTheme input[type="password"]:focus,
-.darkTheme input[type="password"]:active,
-.darkTheme input[type="email"]:hover,
-.darkTheme input[type="email"]:focus,
-.darkTheme input[type="email"]:active,
-.darkTheme input[type="number"]:hover,
-.darkTheme input[type="number"]:focus,
-.darkTheme input[type="number"]:active,
-.darkTheme input[type="search"]:hover,
-.darkTheme input[type="search"]:focus,
-.darkTheme input[type="search"]:active,
-.darkTheme textarea:hover,
-.darkTheme textarea:focus,
-.darkTheme textarea:active,
-.darkTheme input[role="combobox"]:hover,
-.darkTheme input[role="combobox"]:focus,
-.darkTheme input[role="combobox"]:active,
-.darkTheme select[role="combobox"]:hover,
-.darkTheme select[role="combobox"]:focus,
-.darkTheme select[role="combobox"]:active {
+.darkTheme input[type="text"]:not([class*="ant-"]):hover, .darkTheme input[type="text"]:not([class*="ant-"]):focus, .darkTheme input[type="text"]:not([class*="ant-"]):active,
+.darkTheme input[type="password"]:not([class*="ant-"]):hover,
+.darkTheme input[type="password"]:not([class*="ant-"]):focus,
+.darkTheme input[type="password"]:not([class*="ant-"]):active,
+.darkTheme input[type="email"]:not([class*="ant-"]):hover,
+.darkTheme input[type="email"]:not([class*="ant-"]):focus,
+.darkTheme input[type="email"]:not([class*="ant-"]):active,
+.darkTheme input[type="number"]:not([class*="ant-"]):hover,
+.darkTheme input[type="number"]:not([class*="ant-"]):focus,
+.darkTheme input[type="number"]:not([class*="ant-"]):active,
+.darkTheme input[type="search"]:not([class*="ant-"]):hover,
+.darkTheme input[type="search"]:not([class*="ant-"]):focus,
+.darkTheme input[type="search"]:not([class*="ant-"]):active,
+.darkTheme textarea:not([class*="ant-"]):hover,
+.darkTheme textarea:not([class*="ant-"]):focus,
+.darkTheme textarea:not([class*="ant-"]):active,
+.darkTheme input[role="combobox"]:not([class*="ant-"]):hover,
+.darkTheme input[role="combobox"]:not([class*="ant-"]):focus,
+.darkTheme input[role="combobox"]:not([class*="ant-"]):active,
+.darkTheme select[role="combobox"]:not([class*="ant-"]):hover,
+.darkTheme select[role="combobox"]:not([class*="ant-"]):focus,
+.darkTheme select[role="combobox"]:not([class*="ant-"]):active {
   background-color: #2d2d2d;
 }
 
-.darkTheme input[type="text"]:focus,
-.darkTheme input[type="password"]:focus,
-.darkTheme input[type="email"]:focus,
-.darkTheme input[type="number"]:focus,
-.darkTheme input[type="search"]:focus,
-.darkTheme textarea:focus,
-.darkTheme input[role="combobox"]:focus,
-.darkTheme select[role="combobox"]:focus {
+.darkTheme input[type="text"]:not([class*="ant-"]):focus,
+.darkTheme input[type="password"]:not([class*="ant-"]):focus,
+.darkTheme input[type="email"]:not([class*="ant-"]):focus,
+.darkTheme input[type="number"]:not([class*="ant-"]):focus,
+.darkTheme input[type="search"]:not([class*="ant-"]):focus,
+.darkTheme textarea:not([class*="ant-"]):focus,
+.darkTheme input[role="combobox"]:not([class*="ant-"]):focus,
+.darkTheme select[role="combobox"]:not([class*="ant-"]):focus {
   border-color: #aaa;
 }
 
@@ -13640,8 +13670,8 @@ div:last-child .exchange-bordered {
   color: #b3b3b3;
 }
 
-.darkTheme .tab-content.tab-no-background {
-  background-color: inherit;
+.darkTheme .tab-content.explorer-tab-content {
+  background-color: #2a2a2a;
 }
 
 .darkTheme .depthchart {
@@ -15052,6 +15082,13 @@ div:last-child .exchange-bordered {
   background-color: #6a6a6a;
 }
 
+.ant-form-item .ant-form-item-label label {
+  text-transform: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  display: inline;
+}
+
 .rc-time-picker-panel {
   z-index: 9999 !important;
 }
@@ -15224,6 +15261,29 @@ div:last-child .exchange-bordered {
 
 .lightTheme {
   /* Table view account */
+}
+
+.lightTheme .explore-witness--info {
+  width: 100%;
+  border: 1px solid #a2a2a2;
+  background: transparent;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.lightTheme .explore-witness--info table {
+  width: 100%;
+}
+
+.lightTheme .explore-witness--info table thead th {
+  font-weight: 400;
+  color: #8f8f8f;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.lightTheme .explore-witness--info table tbody td {
+  color: #5c5c5c;
 }
 
 .lightTheme #incognito {
@@ -15983,52 +16043,52 @@ div:last-child .exchange-bordered {
   border-color: #e3745b;
 }
 
-.lightTheme input[type="text"],
-.lightTheme input[type="password"],
-.lightTheme input[type="email"],
-.lightTheme input[type="number"],
-.lightTheme input[type="search"],
-.lightTheme textarea,
-.lightTheme input[role="combobox"],
-.lightTheme select[role="combobox"] {
+.lightTheme input[type="text"]:not([class*="ant-"]),
+.lightTheme input[type="password"]:not([class*="ant-"]),
+.lightTheme input[type="email"]:not([class*="ant-"]),
+.lightTheme input[type="number"]:not([class*="ant-"]),
+.lightTheme input[type="search"]:not([class*="ant-"]),
+.lightTheme textarea:not([class*="ant-"]),
+.lightTheme input[role="combobox"]:not([class*="ant-"]),
+.lightTheme select[role="combobox"]:not([class*="ant-"]) {
   background-color: #ebebeb;
   border: 0;
   color: #242424;
 }
 
-.lightTheme input[type="text"]:hover, .lightTheme input[type="text"]:focus, .lightTheme input[type="text"]:active,
-.lightTheme input[type="password"]:hover,
-.lightTheme input[type="password"]:focus,
-.lightTheme input[type="password"]:active,
-.lightTheme input[type="email"]:hover,
-.lightTheme input[type="email"]:focus,
-.lightTheme input[type="email"]:active,
-.lightTheme input[type="number"]:hover,
-.lightTheme input[type="number"]:focus,
-.lightTheme input[type="number"]:active,
-.lightTheme input[type="search"]:hover,
-.lightTheme input[type="search"]:focus,
-.lightTheme input[type="search"]:active,
-.lightTheme textarea:hover,
-.lightTheme textarea:focus,
-.lightTheme textarea:active,
-.lightTheme input[role="combobox"]:hover,
-.lightTheme input[role="combobox"]:focus,
-.lightTheme input[role="combobox"]:active,
-.lightTheme select[role="combobox"]:hover,
-.lightTheme select[role="combobox"]:focus,
-.lightTheme select[role="combobox"]:active {
+.lightTheme input[type="text"]:not([class*="ant-"]):hover, .lightTheme input[type="text"]:not([class*="ant-"]):focus, .lightTheme input[type="text"]:not([class*="ant-"]):active,
+.lightTheme input[type="password"]:not([class*="ant-"]):hover,
+.lightTheme input[type="password"]:not([class*="ant-"]):focus,
+.lightTheme input[type="password"]:not([class*="ant-"]):active,
+.lightTheme input[type="email"]:not([class*="ant-"]):hover,
+.lightTheme input[type="email"]:not([class*="ant-"]):focus,
+.lightTheme input[type="email"]:not([class*="ant-"]):active,
+.lightTheme input[type="number"]:not([class*="ant-"]):hover,
+.lightTheme input[type="number"]:not([class*="ant-"]):focus,
+.lightTheme input[type="number"]:not([class*="ant-"]):active,
+.lightTheme input[type="search"]:not([class*="ant-"]):hover,
+.lightTheme input[type="search"]:not([class*="ant-"]):focus,
+.lightTheme input[type="search"]:not([class*="ant-"]):active,
+.lightTheme textarea:not([class*="ant-"]):hover,
+.lightTheme textarea:not([class*="ant-"]):focus,
+.lightTheme textarea:not([class*="ant-"]):active,
+.lightTheme input[role="combobox"]:not([class*="ant-"]):hover,
+.lightTheme input[role="combobox"]:not([class*="ant-"]):focus,
+.lightTheme input[role="combobox"]:not([class*="ant-"]):active,
+.lightTheme select[role="combobox"]:not([class*="ant-"]):hover,
+.lightTheme select[role="combobox"]:not([class*="ant-"]):focus,
+.lightTheme select[role="combobox"]:not([class*="ant-"]):active {
   background-color: #ebebeb;
 }
 
-.lightTheme input[type="text"]:focus,
-.lightTheme input[type="password"]:focus,
-.lightTheme input[type="email"]:focus,
-.lightTheme input[type="number"]:focus,
-.lightTheme input[type="search"]:focus,
-.lightTheme textarea:focus,
-.lightTheme input[role="combobox"]:focus,
-.lightTheme select[role="combobox"]:focus {
+.lightTheme input[type="text"]:not([class*="ant-"]):focus,
+.lightTheme input[type="password"]:not([class*="ant-"]):focus,
+.lightTheme input[type="email"]:not([class*="ant-"]):focus,
+.lightTheme input[type="number"]:not([class*="ant-"]):focus,
+.lightTheme input[type="search"]:not([class*="ant-"]):focus,
+.lightTheme textarea:not([class*="ant-"]):focus,
+.lightTheme input[role="combobox"]:not([class*="ant-"]):focus,
+.lightTheme select[role="combobox"]:not([class*="ant-"]):focus {
   border-color: #aaa;
 }
 
@@ -16151,8 +16211,8 @@ div:last-child .exchange-bordered {
   color: #636363;
 }
 
-.lightTheme .tab-content.tab-no-background {
-  background-color: inherit;
+.lightTheme .tab-content.explorer-tab-content {
+  background-color: #fff;
 }
 
 .lightTheme .depthchart {
@@ -17567,6 +17627,13 @@ div:last-child .exchange-bordered {
   font-weight: bold;
 }
 
+.ant-form-item .ant-form-item-label label {
+  text-transform: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  display: inline;
+}
+
 .rc-time-picker-panel {
   z-index: 9999 !important;
 }
@@ -17739,6 +17806,29 @@ div:last-child .exchange-bordered {
 
 .midnightTheme {
   /* Table view account */
+}
+
+.midnightTheme .explore-witness--info {
+  width: 100%;
+  border: 1px solid #484848;
+  background: #27384b;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.midnightTheme .explore-witness--info table {
+  width: 100%;
+}
+
+.midnightTheme .explore-witness--info table thead th {
+  font-weight: 400;
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+
+.midnightTheme .explore-witness--info table tbody td {
+  color: #fff;
 }
 
 .midnightTheme #incognito {
@@ -18498,52 +18588,52 @@ div:last-child .exchange-bordered {
   border-color: #e3745b;
 }
 
-.midnightTheme input[type="text"],
-.midnightTheme input[type="password"],
-.midnightTheme input[type="email"],
-.midnightTheme input[type="number"],
-.midnightTheme input[type="search"],
-.midnightTheme textarea,
-.midnightTheme input[role="combobox"],
-.midnightTheme select[role="combobox"] {
+.midnightTheme input[type="text"]:not([class*="ant-"]),
+.midnightTheme input[type="password"]:not([class*="ant-"]),
+.midnightTheme input[type="email"]:not([class*="ant-"]),
+.midnightTheme input[type="number"]:not([class*="ant-"]),
+.midnightTheme input[type="search"]:not([class*="ant-"]),
+.midnightTheme textarea:not([class*="ant-"]),
+.midnightTheme input[role="combobox"]:not([class*="ant-"]),
+.midnightTheme select[role="combobox"]:not([class*="ant-"]) {
   background-color: #1b1c22;
   border: 0;
   color: #e0e0e0;
 }
 
-.midnightTheme input[type="text"]:hover, .midnightTheme input[type="text"]:focus, .midnightTheme input[type="text"]:active,
-.midnightTheme input[type="password"]:hover,
-.midnightTheme input[type="password"]:focus,
-.midnightTheme input[type="password"]:active,
-.midnightTheme input[type="email"]:hover,
-.midnightTheme input[type="email"]:focus,
-.midnightTheme input[type="email"]:active,
-.midnightTheme input[type="number"]:hover,
-.midnightTheme input[type="number"]:focus,
-.midnightTheme input[type="number"]:active,
-.midnightTheme input[type="search"]:hover,
-.midnightTheme input[type="search"]:focus,
-.midnightTheme input[type="search"]:active,
-.midnightTheme textarea:hover,
-.midnightTheme textarea:focus,
-.midnightTheme textarea:active,
-.midnightTheme input[role="combobox"]:hover,
-.midnightTheme input[role="combobox"]:focus,
-.midnightTheme input[role="combobox"]:active,
-.midnightTheme select[role="combobox"]:hover,
-.midnightTheme select[role="combobox"]:focus,
-.midnightTheme select[role="combobox"]:active {
+.midnightTheme input[type="text"]:not([class*="ant-"]):hover, .midnightTheme input[type="text"]:not([class*="ant-"]):focus, .midnightTheme input[type="text"]:not([class*="ant-"]):active,
+.midnightTheme input[type="password"]:not([class*="ant-"]):hover,
+.midnightTheme input[type="password"]:not([class*="ant-"]):focus,
+.midnightTheme input[type="password"]:not([class*="ant-"]):active,
+.midnightTheme input[type="email"]:not([class*="ant-"]):hover,
+.midnightTheme input[type="email"]:not([class*="ant-"]):focus,
+.midnightTheme input[type="email"]:not([class*="ant-"]):active,
+.midnightTheme input[type="number"]:not([class*="ant-"]):hover,
+.midnightTheme input[type="number"]:not([class*="ant-"]):focus,
+.midnightTheme input[type="number"]:not([class*="ant-"]):active,
+.midnightTheme input[type="search"]:not([class*="ant-"]):hover,
+.midnightTheme input[type="search"]:not([class*="ant-"]):focus,
+.midnightTheme input[type="search"]:not([class*="ant-"]):active,
+.midnightTheme textarea:not([class*="ant-"]):hover,
+.midnightTheme textarea:not([class*="ant-"]):focus,
+.midnightTheme textarea:not([class*="ant-"]):active,
+.midnightTheme input[role="combobox"]:not([class*="ant-"]):hover,
+.midnightTheme input[role="combobox"]:not([class*="ant-"]):focus,
+.midnightTheme input[role="combobox"]:not([class*="ant-"]):active,
+.midnightTheme select[role="combobox"]:not([class*="ant-"]):hover,
+.midnightTheme select[role="combobox"]:not([class*="ant-"]):focus,
+.midnightTheme select[role="combobox"]:not([class*="ant-"]):active {
   background-color: #1b1c22;
 }
 
-.midnightTheme input[type="text"]:focus,
-.midnightTheme input[type="password"]:focus,
-.midnightTheme input[type="email"]:focus,
-.midnightTheme input[type="number"]:focus,
-.midnightTheme input[type="search"]:focus,
-.midnightTheme textarea:focus,
-.midnightTheme input[role="combobox"]:focus,
-.midnightTheme select[role="combobox"]:focus {
+.midnightTheme input[type="text"]:not([class*="ant-"]):focus,
+.midnightTheme input[type="password"]:not([class*="ant-"]):focus,
+.midnightTheme input[type="email"]:not([class*="ant-"]):focus,
+.midnightTheme input[type="number"]:not([class*="ant-"]):focus,
+.midnightTheme input[type="search"]:not([class*="ant-"]):focus,
+.midnightTheme textarea:not([class*="ant-"]):focus,
+.midnightTheme input[role="combobox"]:not([class*="ant-"]):focus,
+.midnightTheme select[role="combobox"]:not([class*="ant-"]):focus {
   border-color: #aaa;
 }
 
@@ -18666,8 +18756,8 @@ div:last-child .exchange-bordered {
   color: #7a7a7a;
 }
 
-.midnightTheme .tab-content.tab-no-background {
-  background-color: inherit;
+.midnightTheme .tab-content.explorer-tab-content {
+  background-color: #212e3c;
 }
 
 .midnightTheme .depthchart {
@@ -20078,6 +20168,13 @@ div:last-child .exchange-bordered {
   background-color: #353742;
 }
 
+.ant-form-item .ant-form-item-label label {
+  text-transform: none;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  display: inline;
+}
+
 #content.win32 {
   font-size: 90%;
 }
@@ -20492,8 +20589,8 @@ select.bts-select.full-width {
   }
 }
 
-input,
-textarea {
+input:not([class*="ant-"]),
+textarea:not([class*="ant-"]) {
   border-radius: 5px !important;
 }
 
