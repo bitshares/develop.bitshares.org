@@ -20946,6 +20946,14 @@ span.icon-10x {
   text-align: left;
 }
 
+.proposal-update {
+  padding-top: 5px;
+}
+
+.proposal-update li {
+  font-size: 0.9rem;
+}
+
 @charset "UTF-8";
 .json-inspector,
 .json-inspector__selection {
