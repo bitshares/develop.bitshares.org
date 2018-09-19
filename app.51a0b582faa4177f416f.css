@@ -13655,46 +13655,34 @@ label.ant-checkbox-wrapper > span {
 .darkTheme input[type="search"]:not([class*="ant-"]),
 .darkTheme textarea:not([class*="ant-"]),
 .darkTheme input[role="combobox"]:not([class*="ant-"]),
-.darkTheme select[role="combobox"]:not([class*="ant-"]),
-.darkTheme .buy-sell-container .ant-input {
+.darkTheme select[role="combobox"]:not([class*="ant-"]) {
   background-color: #3c3c3c;
   border: 0;
   color: #ffffff;
 }
 
-.darkTheme input[type="text"]:not([class*="ant-"]):hover, .darkTheme input[type="text"]:not([class*="ant-"]):focus, .darkTheme input[type="text"]:not([class*="ant-"]):active, .darkTheme input[type="text"]:not([class*="ant-"]):disabled,
+.darkTheme input[type="text"]:not([class*="ant-"]):hover, .darkTheme input[type="text"]:not([class*="ant-"]):focus, .darkTheme input[type="text"]:not([class*="ant-"]):active,
 .darkTheme input[type="password"]:not([class*="ant-"]):hover,
 .darkTheme input[type="password"]:not([class*="ant-"]):focus,
 .darkTheme input[type="password"]:not([class*="ant-"]):active,
-.darkTheme input[type="password"]:not([class*="ant-"]):disabled,
 .darkTheme input[type="email"]:not([class*="ant-"]):hover,
 .darkTheme input[type="email"]:not([class*="ant-"]):focus,
 .darkTheme input[type="email"]:not([class*="ant-"]):active,
-.darkTheme input[type="email"]:not([class*="ant-"]):disabled,
 .darkTheme input[type="number"]:not([class*="ant-"]):hover,
 .darkTheme input[type="number"]:not([class*="ant-"]):focus,
 .darkTheme input[type="number"]:not([class*="ant-"]):active,
-.darkTheme input[type="number"]:not([class*="ant-"]):disabled,
 .darkTheme input[type="search"]:not([class*="ant-"]):hover,
 .darkTheme input[type="search"]:not([class*="ant-"]):focus,
 .darkTheme input[type="search"]:not([class*="ant-"]):active,
-.darkTheme input[type="search"]:not([class*="ant-"]):disabled,
 .darkTheme textarea:not([class*="ant-"]):hover,
 .darkTheme textarea:not([class*="ant-"]):focus,
 .darkTheme textarea:not([class*="ant-"]):active,
-.darkTheme textarea:not([class*="ant-"]):disabled,
 .darkTheme input[role="combobox"]:not([class*="ant-"]):hover,
 .darkTheme input[role="combobox"]:not([class*="ant-"]):focus,
 .darkTheme input[role="combobox"]:not([class*="ant-"]):active,
-.darkTheme input[role="combobox"]:not([class*="ant-"]):disabled,
 .darkTheme select[role="combobox"]:not([class*="ant-"]):hover,
 .darkTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.darkTheme select[role="combobox"]:not([class*="ant-"]):active,
-.darkTheme select[role="combobox"]:not([class*="ant-"]):disabled,
-.darkTheme .buy-sell-container .ant-input:hover,
-.darkTheme .buy-sell-container .ant-input:focus,
-.darkTheme .buy-sell-container .ant-input:active,
-.darkTheme .buy-sell-container .ant-input:disabled {
+.darkTheme select[role="combobox"]:not([class*="ant-"]):active {
   background-color: #3c3c3c;
 }
 
@@ -13705,8 +13693,7 @@ label.ant-checkbox-wrapper > span {
 .darkTheme input[type="search"]:not([class*="ant-"]):focus,
 .darkTheme textarea:not([class*="ant-"]):focus,
 .darkTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.darkTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.darkTheme .buy-sell-container .ant-input:focus {
+.darkTheme select[role="combobox"]:not([class*="ant-"]):focus {
   border-color: #aaa;
 }
 
@@ -15002,6 +14989,11 @@ label.ant-checkbox-wrapper > span {
   cursor: pointer;
 }
 
+.darkTheme .order-2 .flip-arrow,
+.darkTheme .order-5 .flip-arrow {
+  display: none;
+}
+
 .darkTheme .order-book-button-h svg > path {
   fill: #fff;
 }
@@ -15116,7 +15108,7 @@ label.ant-checkbox-wrapper > span {
   width: 160px;
   padding: 0;
   margin: 0 5px 0 0;
-  background: transparent !important;
+  background: transparent;
   border-radius: 0 !important;
   border-bottom: 1px dotted #a09f9f;
   display: inline-block;
@@ -15125,7 +15117,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .expiration-datetime-picker input:hover {
-  background: transparent !important;
+  background: transparent;
 }
 
 .darkTheme .expiration-datetime-picker select {
@@ -15233,12 +15225,6 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .ant-select-selection-selected-value {
   color: #fff !important;
-}
-
-.darkTheme .ant-input {
-  border-left: 1px solid #7e7e7e !important;
-  border-top: 1px solid #7e7e7e !important;
-  border-bottom: 1px solid #7e7e7e !important;
 }
 
 .ant-form-item .ant-form-item-label label {
@@ -16223,46 +16209,34 @@ label.ant-checkbox-wrapper > span {
 .lightTheme input[type="search"]:not([class*="ant-"]),
 .lightTheme textarea:not([class*="ant-"]),
 .lightTheme input[role="combobox"]:not([class*="ant-"]),
-.lightTheme select[role="combobox"]:not([class*="ant-"]),
-.lightTheme .buy-sell-container .ant-input {
+.lightTheme select[role="combobox"]:not([class*="ant-"]) {
   background-color: #ededed;
   border: 0;
   color: #242424;
 }
 
-.lightTheme input[type="text"]:not([class*="ant-"]):hover, .lightTheme input[type="text"]:not([class*="ant-"]):focus, .lightTheme input[type="text"]:not([class*="ant-"]):active, .lightTheme input[type="text"]:not([class*="ant-"]):disabled,
+.lightTheme input[type="text"]:not([class*="ant-"]):hover, .lightTheme input[type="text"]:not([class*="ant-"]):focus, .lightTheme input[type="text"]:not([class*="ant-"]):active,
 .lightTheme input[type="password"]:not([class*="ant-"]):hover,
 .lightTheme input[type="password"]:not([class*="ant-"]):focus,
 .lightTheme input[type="password"]:not([class*="ant-"]):active,
-.lightTheme input[type="password"]:not([class*="ant-"]):disabled,
 .lightTheme input[type="email"]:not([class*="ant-"]):hover,
 .lightTheme input[type="email"]:not([class*="ant-"]):focus,
 .lightTheme input[type="email"]:not([class*="ant-"]):active,
-.lightTheme input[type="email"]:not([class*="ant-"]):disabled,
 .lightTheme input[type="number"]:not([class*="ant-"]):hover,
 .lightTheme input[type="number"]:not([class*="ant-"]):focus,
 .lightTheme input[type="number"]:not([class*="ant-"]):active,
-.lightTheme input[type="number"]:not([class*="ant-"]):disabled,
 .lightTheme input[type="search"]:not([class*="ant-"]):hover,
 .lightTheme input[type="search"]:not([class*="ant-"]):focus,
 .lightTheme input[type="search"]:not([class*="ant-"]):active,
-.lightTheme input[type="search"]:not([class*="ant-"]):disabled,
 .lightTheme textarea:not([class*="ant-"]):hover,
 .lightTheme textarea:not([class*="ant-"]):focus,
 .lightTheme textarea:not([class*="ant-"]):active,
-.lightTheme textarea:not([class*="ant-"]):disabled,
 .lightTheme input[role="combobox"]:not([class*="ant-"]):hover,
 .lightTheme input[role="combobox"]:not([class*="ant-"]):focus,
 .lightTheme input[role="combobox"]:not([class*="ant-"]):active,
-.lightTheme input[role="combobox"]:not([class*="ant-"]):disabled,
 .lightTheme select[role="combobox"]:not([class*="ant-"]):hover,
 .lightTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.lightTheme select[role="combobox"]:not([class*="ant-"]):active,
-.lightTheme select[role="combobox"]:not([class*="ant-"]):disabled,
-.lightTheme .buy-sell-container .ant-input:hover,
-.lightTheme .buy-sell-container .ant-input:focus,
-.lightTheme .buy-sell-container .ant-input:active,
-.lightTheme .buy-sell-container .ant-input:disabled {
+.lightTheme select[role="combobox"]:not([class*="ant-"]):active {
   background-color: #ededed;
 }
 
@@ -16273,8 +16247,7 @@ label.ant-checkbox-wrapper > span {
 .lightTheme input[type="search"]:not([class*="ant-"]):focus,
 .lightTheme textarea:not([class*="ant-"]):focus,
 .lightTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.lightTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.lightTheme .buy-sell-container .ant-input:focus {
+.lightTheme select[role="combobox"]:not([class*="ant-"]):focus {
   border-color: #aaa;
 }
 
@@ -17570,6 +17543,11 @@ label.ant-checkbox-wrapper > span {
   cursor: pointer;
 }
 
+.lightTheme .order-2 .flip-arrow,
+.lightTheme .order-5 .flip-arrow {
+  display: none;
+}
+
 .lightTheme .order-book-button-h svg > path {
   fill: #fff;
 }
@@ -17684,7 +17662,7 @@ label.ant-checkbox-wrapper > span {
   width: 160px;
   padding: 0;
   margin: 0 5px 0 0;
-  background: transparent !important;
+  background: transparent;
   border-radius: 0 !important;
   border-bottom: 1px dotted #a09f9f;
   display: inline-block;
@@ -17693,7 +17671,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .expiration-datetime-picker input:hover {
-  background: transparent !important;
+  background: transparent;
 }
 
 .lightTheme .expiration-datetime-picker select {
@@ -17801,12 +17779,6 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .ant-select-selection-selected-value {
   color: #3d3d3d !important;
-}
-
-.lightTheme .ant-input {
-  border-left: 1px solid #fcfcfc !important;
-  border-top: 1px solid #fcfcfc !important;
-  border-bottom: 1px solid #fcfcfc !important;
 }
 
 .lightTheme .change-up {
@@ -18795,46 +18767,34 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme input[type="search"]:not([class*="ant-"]),
 .midnightTheme textarea:not([class*="ant-"]),
 .midnightTheme input[role="combobox"]:not([class*="ant-"]),
-.midnightTheme select[role="combobox"]:not([class*="ant-"]),
-.midnightTheme .buy-sell-container .ant-input {
+.midnightTheme select[role="combobox"]:not([class*="ant-"]) {
   background-color: #292b33;
   border: 0;
   color: #e0e0e0;
 }
 
-.midnightTheme input[type="text"]:not([class*="ant-"]):hover, .midnightTheme input[type="text"]:not([class*="ant-"]):focus, .midnightTheme input[type="text"]:not([class*="ant-"]):active, .midnightTheme input[type="text"]:not([class*="ant-"]):disabled,
+.midnightTheme input[type="text"]:not([class*="ant-"]):hover, .midnightTheme input[type="text"]:not([class*="ant-"]):focus, .midnightTheme input[type="text"]:not([class*="ant-"]):active,
 .midnightTheme input[type="password"]:not([class*="ant-"]):hover,
 .midnightTheme input[type="password"]:not([class*="ant-"]):focus,
 .midnightTheme input[type="password"]:not([class*="ant-"]):active,
-.midnightTheme input[type="password"]:not([class*="ant-"]):disabled,
 .midnightTheme input[type="email"]:not([class*="ant-"]):hover,
 .midnightTheme input[type="email"]:not([class*="ant-"]):focus,
 .midnightTheme input[type="email"]:not([class*="ant-"]):active,
-.midnightTheme input[type="email"]:not([class*="ant-"]):disabled,
 .midnightTheme input[type="number"]:not([class*="ant-"]):hover,
 .midnightTheme input[type="number"]:not([class*="ant-"]):focus,
 .midnightTheme input[type="number"]:not([class*="ant-"]):active,
-.midnightTheme input[type="number"]:not([class*="ant-"]):disabled,
 .midnightTheme input[type="search"]:not([class*="ant-"]):hover,
 .midnightTheme input[type="search"]:not([class*="ant-"]):focus,
 .midnightTheme input[type="search"]:not([class*="ant-"]):active,
-.midnightTheme input[type="search"]:not([class*="ant-"]):disabled,
 .midnightTheme textarea:not([class*="ant-"]):hover,
 .midnightTheme textarea:not([class*="ant-"]):focus,
 .midnightTheme textarea:not([class*="ant-"]):active,
-.midnightTheme textarea:not([class*="ant-"]):disabled,
 .midnightTheme input[role="combobox"]:not([class*="ant-"]):hover,
 .midnightTheme input[role="combobox"]:not([class*="ant-"]):focus,
 .midnightTheme input[role="combobox"]:not([class*="ant-"]):active,
-.midnightTheme input[role="combobox"]:not([class*="ant-"]):disabled,
 .midnightTheme select[role="combobox"]:not([class*="ant-"]):hover,
 .midnightTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.midnightTheme select[role="combobox"]:not([class*="ant-"]):active,
-.midnightTheme select[role="combobox"]:not([class*="ant-"]):disabled,
-.midnightTheme .buy-sell-container .ant-input:hover,
-.midnightTheme .buy-sell-container .ant-input:focus,
-.midnightTheme .buy-sell-container .ant-input:active,
-.midnightTheme .buy-sell-container .ant-input:disabled {
+.midnightTheme select[role="combobox"]:not([class*="ant-"]):active {
   background-color: #292b33;
 }
 
@@ -18845,8 +18805,7 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme input[type="search"]:not([class*="ant-"]):focus,
 .midnightTheme textarea:not([class*="ant-"]):focus,
 .midnightTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.midnightTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.midnightTheme .buy-sell-container .ant-input:focus {
+.midnightTheme select[role="combobox"]:not([class*="ant-"]):focus {
   border-color: #aaa;
 }
 
@@ -20142,6 +20101,11 @@ label.ant-checkbox-wrapper > span {
   cursor: pointer;
 }
 
+.midnightTheme .order-2 .flip-arrow,
+.midnightTheme .order-5 .flip-arrow {
+  display: none;
+}
+
 .midnightTheme .order-book-button-h svg > path {
   fill: #fff;
 }
@@ -20256,7 +20220,7 @@ label.ant-checkbox-wrapper > span {
   width: 160px;
   padding: 0;
   margin: 0 5px 0 0;
-  background: transparent !important;
+  background: transparent;
   border-radius: 0 !important;
   border-bottom: 1px dotted #a09f9f;
   display: inline-block;
@@ -20265,7 +20229,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .midnightTheme .expiration-datetime-picker input:hover {
-  background: transparent !important;
+  background: transparent;
 }
 
 .midnightTheme .expiration-datetime-picker select {
@@ -20373,12 +20337,6 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .ant-select-selection-selected-value {
   color: #fff !important;
-}
-
-.midnightTheme .ant-input {
-  border-left: 1px solid #474a59 !important;
-  border-top: 1px solid #474a59 !important;
-  border-bottom: 1px solid #474a59 !important;
 }
 
 .ant-form-item .ant-form-item-label label {
