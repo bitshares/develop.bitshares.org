@@ -12999,6 +12999,12 @@ div:last-child .exchange-bordered {
   background-color: #049cce;
 }
 
+.darkTheme .modal#marketPicker,
+.darkTheme .modal#settingsModal {
+  background-color: #2a2a2a;
+  border: 1px solid black;
+}
+
 .darkTheme .modal {
   color: #fff;
   background-color: #4b5158;
@@ -15105,6 +15111,17 @@ div:last-child .exchange-bordered {
   background-color: #6a6a6a;
 }
 
+.darkTheme .login-selector--language-select .login-selector--language-select--icon {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-right: 7px;
+  color: #1ec3fa;
+}
+
+.darkTheme .login-selector--language-select .login-selector--language-select--wrapper {
+  margin-left: 0;
+}
+
 .ant-form-item .ant-form-item-label label {
   text-transform: none;
   font-family: Roboto, sans-serif;
@@ -15550,6 +15567,12 @@ div:last-child .exchange-bordered {
 
 .lightTheme .copyIcon > button.copyIcon {
   background-color: #2196f3;
+}
+
+.lightTheme .modal#marketPicker,
+.lightTheme .modal#settingsModal {
+  background-color: #fff;
+  border: 1px solid black;
 }
 
 .lightTheme .modal {
@@ -17658,6 +17681,17 @@ div:last-child .exchange-bordered {
   background-color: #fff;
 }
 
+.lightTheme .login-selector--language-select .login-selector--language-select--icon {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-right: 7px;
+  color: #337ab7;
+}
+
+.lightTheme .login-selector--language-select .login-selector--language-select--wrapper {
+  margin-left: 0;
+}
+
 .lightTheme .change-up {
   font-weight: bold;
 }
@@ -18107,6 +18141,12 @@ div:last-child .exchange-bordered {
 
 .midnightTheme .copyIcon > button.copyIcon {
   background-color: #049cce;
+}
+
+.midnightTheme .modal#marketPicker,
+.midnightTheme .modal#settingsModal {
+  background-color: #191a1f;
+  border: 1px solid black;
 }
 
 .midnightTheme .modal {
@@ -20213,6 +20253,17 @@ div:last-child .exchange-bordered {
 
 .midnightTheme .grouped_order select > option {
   background-color: #353742;
+}
+
+.midnightTheme .login-selector--language-select .login-selector--language-select--icon {
+  font-size: 18px;
+  margin-top: 7px;
+  margin-right: 7px;
+  color: #049cce;
+}
+
+.midnightTheme .login-selector--language-select .login-selector--language-select--wrapper {
+  margin-left: 0;
 }
 
 .ant-form-item .ant-form-item-label label {
