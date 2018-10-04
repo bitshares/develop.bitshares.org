@@ -12559,6 +12559,11 @@ div:last-child .exchange-bordered {
   display: inline;
 }
 
+.ant-select-dropdown-menu {
+  margin-left: 0;
+  font-size: 14px;
+}
+
 .rc-time-picker-panel {
   z-index: 9999 !important;
 }
@@ -15127,6 +15132,11 @@ div:last-child .exchange-bordered {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   display: inline;
+}
+
+.ant-select-dropdown-menu {
+  margin-left: 0;
+  font-size: 14px;
 }
 
 .rc-time-picker-panel {
@@ -17703,6 +17713,11 @@ div:last-child .exchange-bordered {
   display: inline;
 }
 
+.ant-select-dropdown-menu {
+  margin-left: 0;
+  font-size: 14px;
+}
+
 .rc-time-picker-panel {
   z-index: 9999 !important;
 }
@@ -20271,6 +20286,11 @@ div:last-child .exchange-bordered {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   display: inline;
+}
+
+.ant-select-dropdown-menu {
+  margin-left: 0;
+  font-size: 14px;
 }
 
 #content.win32 {
