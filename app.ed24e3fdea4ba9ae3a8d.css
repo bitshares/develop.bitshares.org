@@ -12448,6 +12448,469 @@ Midnight = #23313d
   }
 }
 
+div.registration {
+  padding-top: 3rem;
+  background-color: initial;
+}
+
+div.registration .registration-title {
+  font-weight: bold;
+}
+
+div.registration .model-img {
+  min-width: 350px;
+  opacity: 0.15;
+  transition-duration: 0.3s;
+}
+
+div.registration .model-img:not(.ng-hide) {
+  display: block !important;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  div.registration .model-img:not(.ng-hide) {
+    display: none !important;
+  }
+}
+
+div.registration .model-img.confirmed {
+  opacity: 1;
+}
+
+div.registration .model-img-overlay {
+  min-width: 350px;
+  top: 0;
+  position: absolute;
+  clip: rect(0, 0, 400px, 0);
+}
+
+div.registration .model-img-overlay:not(.ng-hide) {
+  display: block !important;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  div.registration .model-img-overlay:not(.ng-hide) {
+    display: none !important;
+  }
+}
+
+div.registration .create-account-block {
+  max-width: 700px;
+  width: 100%;
+  padding: 0 15px;
+  text-align: left;
+}
+
+@media only screen and (min-width: 75em) {
+  div.registration .create-account-block .account-name,
+  div.registration .create-account-block .account-selector {
+    width: 77%;
+  }
+}
+
+div.registration .create-account-block h3 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  line-height: 26px;
+}
+
+div.registration .create-account-block .confirm-checks h3 {
+  margin-bottom: 28px;
+}
+
+div.registration .create-account-block .model-description {
+  max-width: 560px;
+  margin-bottom: 27px;
+  font-size: 14px;
+  letter-spacing: 0.06px;
+  line-height: 20px;
+}
+
+div.registration .create-account-block button.button-primary {
+  margin-top: 23px;
+  padding: 8px 25px;
+  border-radius: 20px;
+}
+
+div.registration .create-account-block button.disabled {
+  opacity: 0.1;
+}
+
+div.registration .create-account-block .checkbox-block {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 19px;
+  cursor: pointer;
+}
+
+div.registration .create-account-block .checkbox-block span {
+  vertical-align: middle;
+}
+
+div.registration .create-account-block .checkbox-text {
+  margin-left: 10px;
+  font-size: 14px;
+  letter-spacing: 0.06px;
+  line-height: 20px;
+}
+
+div.registration .create-account-block .download-btn {
+  margin-top: 16px;
+  padding: 11px 35px;
+  border-radius: 30px;
+}
+
+div.registration .create-account-block .download-btn .download-block {
+  display: flex;
+}
+
+div.registration .create-account-block .download-btn .download-block .bin-img {
+  margin-right: 16px;
+}
+
+div.registration .create-account-block .download-btn .download-block .download-text {
+  font-size: 16px;
+  letter-spacing: 0.07px;
+  line-height: 20px;
+}
+
+div.registration .create-account-block .download-btn .download-block .file-name {
+  margin-bottom: 0;
+  font-size: 11px;
+  letter-spacing: -0.13px;
+  line-height: 15px;
+}
+
+div.registration .create-account-block .new-layout-select {
+  max-width: 30rem;
+  border-radius: 0;
+}
+
+div.registration .create-account-block .why-bin-file {
+  margin-top: 10px;
+  width: fit-content;
+}
+
+@media only screen and (min-width: 75em) {
+  div.registration .create-account-block {
+    margin-left: 60px;
+  }
+}
+
+div.registration div.sub-content {
+  padding-top: 1rem;
+}
+
+div.registration div.sub-content table {
+  text-align: left;
+}
+
+div.registration div.sub-content p {
+  word-wrap: break-word;
+  max-width: 30rem;
+  text-align: left;
+}
+
+div.registration div.button-group {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+div.registration div.button-group label > span {
+  text-transform: none;
+  font-size: 90%;
+}
+
+div.registration div.button-group label:first-of-type {
+  margin-right: 3rem;
+}
+
+div.registration div.button {
+  border-radius: 20px;
+  padding: 11px 25px;
+}
+
+div.registration div.button.disabled {
+  opacity: 0.1;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  div.registration {
+    padding-top: 14px;
+  }
+  div.registration .create-account-block h3 {
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  div.registration .create-account-block .model-description {
+    margin-bottom: 17px;
+    font-size: 12px;
+    letter-spacing: 0.05px;
+    line-height: 16px;
+  }
+  div.registration .create-account-block .facolor-error,
+  div.registration .create-account-block .facolor-warning {
+    margin-top: 2px;
+    line-height: 17px;
+  }
+  div.registration .create-account-block button.button-primary {
+    margin-top: 8px;
+  }
+  div.registration .create-account-block p {
+    max-width: 100%;
+  }
+  div.registration .create-account-block .download-btn {
+    width: 100%;
+    margin-top: 9px;
+  }
+  div.registration .create-account-block .download-btn .download-block {
+    justify-content: center;
+  }
+  div.registration .create-account-block .confirm-checks h3 {
+    margin: 14px 0 15px 0;
+  }
+  div.registration .create-account-block .checkbox-block {
+    margin-bottom: 16px;
+  }
+  div.registration .create-account-block .checkbox-text {
+    font-size: 12px;
+    letter-spacing: 0.05px;
+    line-height: 18px;
+  }
+  div.registration .create-account-block .new-layout-select {
+    max-width: 100%;
+  }
+  div.registration .create-account-block .why-bin-file {
+    margin: 10px auto;
+  }
+}
+
+.registration-selector .registration-title {
+  margin: 20px 0 70px;
+  font-size: 32px;
+  line-height: 26px;
+}
+
+.registration-selector div.selection-block .model-img {
+  position: relative;
+  bottom: 40px;
+}
+
+.registration-selector div.selection-block .inactive-img {
+  bottom: 50px;
+}
+
+.registration-selector div.selection-block .selection-title {
+  margin: -20px 0 0;
+  font-size: 22px;
+  letter-spacing: -0.3px;
+  line-height: 26px;
+}
+
+@media only screen and (min-width: 40em) and (max-width: 74.9375rem) {
+  .registration-selector div.selection-block .selection-title {
+    font-size: 21px;
+  }
+}
+
+.registration-selector div.selection-block .inactive-title {
+  margin-top: -30px;
+}
+
+.registration-selector div.selection-block .choice-model {
+  margin: 4px 5px 10px;
+  display: inline-block;
+  opacity: 0.7;
+  font-size: 16px;
+  letter-spacing: 0.07px;
+  line-height: 20px;
+}
+
+.registration-selector div.selection-block .choice-account {
+  margin-bottom: 67px;
+}
+
+.registration-selector div.selection-block .recommended {
+  width: fit-content;
+  margin: 0 auto 30px;
+  padding: 5px 10px;
+  font-size: 14px;
+  letter-spacing: -0.12px;
+  line-height: 17px;
+}
+
+.registration-selector div.selection-block .model-option {
+  margin-bottom: 9px;
+  opacity: 0.6;
+  font-size: 14px;
+  letter-spacing: 0.06px;
+  line-height: 14px;
+}
+
+.registration-selector div.selection-block .model-option-value {
+  margin-bottom: 20px;
+  font-size: 18px;
+  letter-spacing: 0.08px;
+  line-height: 18px;
+}
+
+.registration-selector div.selection-block .option-border {
+  width: 75%;
+  margin: 0 auto 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+}
+
+.registration-selector div.selection-block .inactive-text {
+  opacity: 0.4;
+}
+
+.registration-selector div.selection-block span.button-primary {
+  padding: 8px 25px;
+}
+
+.registration-selector div.selection-block span.button-secondary {
+  padding: 8px 35px;
+}
+
+.registration-selector div.selection-block span.button-primary,
+.registration-selector div.selection-block span.button-secondary {
+  display: inline-block;
+  margin-top: 13px;
+}
+
+@media only screen and (min-width: 40em) and (max-width: 74.9375rem) {
+  .registration-selector div.selection-block {
+    width: 320px;
+  }
+}
+
+.registration-selector div.inactive-model-block {
+  padding-bottom: 39px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.registration-selector div.inactive-model-block:not(.ng-hide) {
+  display: block !important;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  .registration-selector div.inactive-model-block:not(.ng-hide) {
+    display: none !important;
+  }
+}
+
+.registration-selector div.inactive-model-block span.button-secondary {
+  opacity: 0;
+}
+
+.registration-selector div.inactive-model-block span.button-primary,
+.registration-selector div.inactive-model-block span.button-secondary {
+  margin-top: 11px;
+}
+
+.registration-selector .inactive-model-block:hover span.button-secondary {
+  opacity: 1;
+}
+
+@media (min-width: 640px) {
+  .hide-block-for-medium {
+    display: none;
+  }
+}
+
+@media (max-width: 639px) {
+  .registration-selector {
+    width: 100%;
+  }
+  .registration-selector .registration-title {
+    margin: 14px 0 16px;
+    font-size: 20px;
+    letter-spacing: -0.27px;
+    line-height: 26px;
+  }
+  .registration-selector div.selection-block {
+    width: 100%;
+    margin: 0 3%;
+    padding-bottom: 0;
+  }
+  .registration-selector div.selection-block .small-only-block {
+    display: flex;
+    justify-content: center;
+  }
+  .registration-selector div.selection-block .header-block {
+    width: 55%;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  .registration-selector div.selection-block .inactive-left-block {
+    width: 45%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  .registration-selector div.selection-block .inactive-right-block {
+    width: 45%;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  .registration-selector div.selection-block .model-img {
+    width: 42px;
+    bottom: 0;
+    margin: auto 8px;
+  }
+  .registration-selector div.selection-block .selection-title {
+    margin-top: 0;
+    font-size: 13px;
+    letter-spacing: -0.18px;
+    line-height: 16px;
+  }
+  .registration-selector div.selection-block .hide-text-for-small {
+    display: none;
+  }
+  .registration-selector div.selection-block .choice-model {
+    margin: 0 5px 2px 0;
+    font-size: 10px;
+    letter-spacing: 0.04px;
+  }
+  .registration-selector div.selection-block .recommended {
+    margin-bottom: 5px;
+    margin-left: 0;
+    padding: 2px 5px;
+    font-size: 10px;
+    letter-spacing: -0.08px;
+    line-height: 12px;
+  }
+  .registration-selector div.selection-block .security-key {
+    margin-top: 25px;
+  }
+  .registration-selector div.selection-block .model-option {
+    margin-bottom: 4px;
+    font-size: 12px;
+    letter-spacing: 0.05px;
+  }
+  .registration-selector div.selection-block .model-option-value {
+    margin-bottom: 11px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    letter-spacing: 0.06px;
+  }
+  .registration-selector div.selection-block span.button-primary,
+  .registration-selector div.selection-block span.button-secondary {
+    width: 80%;
+    margin-top: 7px;
+    padding: 14px 25px;
+  }
+  .registration-selector div.selection-block .option-border {
+    width: 80%;
+  }
+  .registration-selector div.selection-block span.question-icon {
+    vertical-align: middle;
+  }
+}
+
 .lifetime {
   background: url(data:image/png;base64,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) no-repeat 100% 50%;
   background-size: auto 80%;
@@ -12562,6 +13025,82 @@ div:last-child .exchange-bordered {
 
 .grid-content.app-tables > .content-block {
   margin-bottom: 0 !important;
+}
+
+.registration-layout .plate {
+  width: 390px;
+  padding-bottom: 49px;
+  border-radius: 12px;
+  box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.5);
+}
+
+.registration-layout .button-primary,
+.registration-layout .button-secondary {
+  text-align: center;
+  border-radius: 20px;
+  font-size: 16px;
+  letter-spacing: 0.07px;
+  line-height: 20px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.registration-layout .button-primary:disabled,
+.registration-layout .button-secondary:disabled {
+  opacity: 0.1;
+}
+
+.registration-layout .button-secondary {
+  background-color: inherit;
+  border: 1px solid;
+}
+
+.registration-layout .button {
+  border-radius: 20px;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  .registration-layout .plate .wallet-block,
+  .registration-layout .plate .account-block,
+  .registration-layout .plate .wallet-block-registration,
+  .registration-layout .plate .account-block-registration {
+    padding-bottom: 45px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  .registration-layout .plate .wallet-block .overflow-bg-block,
+  .registration-layout .plate .account-block .overflow-bg-block,
+  .registration-layout .plate .wallet-block-registration .overflow-bg-block,
+  .registration-layout .plate .account-block-registration .overflow-bg-block {
+    height: 10px;
+  }
+  .registration-layout .plate .wallet-block .overflow-bg-block .content,
+  .registration-layout .plate .account-block .overflow-bg-block .content,
+  .registration-layout .plate .wallet-block-registration .overflow-bg-block .content,
+  .registration-layout .plate .account-block-registration .overflow-bg-block .content {
+    padding: 15px 50px 0;
+  }
+  .registration-layout .plate .wallet-block,
+  .registration-layout .plate .wallet-block-registration {
+    border-top-right-radius: 12px;
+  }
+  .registration-layout .plate .account-block,
+  .registration-layout .plate .account-block-registration {
+    border-top-left-radius: 12px;
+  }
+  .registration-layout .plate .header-block {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    z-index: 1;
+  }
+  .registration-layout .plate .inactive-right-block {
+    z-index: 1;
+    border-top-left-radius: 0;
+  }
+  .registration-layout .plate .inactive-left-block {
+    z-index: 1;
+    border-top-right-radius: 0;
+  }
 }
 
 .ant-form-item .ant-form-item-label label {
@@ -15139,6 +15678,121 @@ div:last-child .exchange-bordered {
   margin-left: 0;
 }
 
+.darkTheme .registration-layout .attention-note {
+  background-color: rgba(255, 153, 0, 0.06);
+}
+
+.darkTheme .registration-layout .attention-text {
+  color: #ff9900;
+}
+
+.darkTheme .registration-layout .button-primary {
+  background-color: #049cce;
+  color: #fff;
+}
+
+.darkTheme .registration-layout .button-primary:hover {
+  background-color: #0bbffa !important;
+}
+
+.darkTheme .registration-layout .button-primary:active {
+  background-color: #24c6fb !important;
+}
+
+.darkTheme .registration-layout .button-secondary {
+  background-color: initial;
+  color: #049cce;
+  border-color: #049cce;
+}
+
+.darkTheme .registration-layout .button-secondary:hover {
+  border-color: #0bbffa !important;
+  color: #0bbffa !important;
+}
+
+.darkTheme .registration-layout .button-secondary:active {
+  border-color: #24c6fb !important;
+  color: #0bbffa !important;
+}
+
+.darkTheme .registration-layout .registration-title {
+  color: #fff;
+}
+
+.darkTheme .registration-layout .selection-block .selection-title,
+.darkTheme .registration-layout .selection-block .choice-model,
+.darkTheme .registration-layout .selection-block .model-option {
+  color: #fff;
+}
+
+.darkTheme .registration-layout .selection-block .recommended {
+  background-color: #22d173;
+  color: #171a25;
+}
+
+.darkTheme .registration-layout .selection-block .model-option-value {
+  color: #22d173;
+}
+
+.darkTheme .registration-layout .selection-block .account-option-value {
+  color: #ff276d;
+}
+
+.darkTheme .registration-layout .selection-block .account-security {
+  color: #ff9900;
+}
+
+.darkTheme .registration-layout .selection-block .option-border {
+  border-bottom-color: rgba(23, 26, 37, 0.3);
+}
+
+.darkTheme .registration-layout .selection-block div.inactive-left-block,
+.darkTheme .registration-layout .selection-block div.inactive-right-block {
+  background-color: #34383c;
+}
+
+.darkTheme .registration-layout .plate.inactive-model-block {
+  background-color: rgba(75, 81, 88, 0.4);
+}
+
+.darkTheme .registration-layout .plate {
+  background-color: #4b5158;
+}
+
+.darkTheme .registration-layout span.checkbox {
+  border-color: #049cce;
+  background-color: #049cce;
+}
+
+.darkTheme .registration-layout span.checkbox-active {
+  border-color: #049cce;
+  background-color: #049cce;
+}
+
+.darkTheme .registration-layout span.checkbox-active svg path {
+  fill: #2a2a2a;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  .darkTheme .registration-layout .plate {
+    background-color: #34383c;
+  }
+  .darkTheme .registration-layout .plate .header-block,
+  .darkTheme .registration-layout .plate .wallet-block,
+  .darkTheme .registration-layout .plate .account-block,
+  .darkTheme .registration-layout .plate .wallet-block-registration,
+  .darkTheme .registration-layout .plate .account-block-registration {
+    background-color: #4b5158;
+  }
+  .darkTheme .registration-layout .plate .header-block .overflow-bg-block .content,
+  .darkTheme .registration-layout .plate .wallet-block .overflow-bg-block .content,
+  .darkTheme .registration-layout .plate .account-block .overflow-bg-block .content,
+  .darkTheme .registration-layout .plate .wallet-block-registration .overflow-bg-block .content,
+  .darkTheme .registration-layout .plate .account-block-registration .overflow-bg-block .content {
+    background-color: #4b5158;
+  }
+}
+
 .ant-form-item .ant-form-item-label label {
   text-transform: none;
   font-family: Roboto, sans-serif;
@@ -17712,6 +18366,121 @@ div:last-child .exchange-bordered {
 
 .lightTheme .login-selector--language-select .login-selector--language-select--wrapper {
   margin-left: 0;
+}
+
+.lightTheme .registration-layout .attention-note {
+  background-color: rgba(255, 153, 0, 0.06);
+}
+
+.lightTheme .registration-layout .attention-text {
+  color: #ff9900;
+}
+
+.lightTheme .registration-layout .button-primary {
+  background-color: #2196f3;
+  color: #3d3d3d;
+}
+
+.lightTheme .registration-layout .button-primary:hover {
+  background-color: #51adf6 !important;
+}
+
+.lightTheme .registration-layout .button-primary:active {
+  background-color: #6ab8f7 !important;
+}
+
+.lightTheme .registration-layout .button-secondary {
+  background-color: initial;
+  color: #2196f3;
+  border-color: #2196f3;
+}
+
+.lightTheme .registration-layout .button-secondary:hover {
+  border-color: #51adf6 !important;
+  color: #51adf6 !important;
+}
+
+.lightTheme .registration-layout .button-secondary:active {
+  border-color: #6ab8f7 !important;
+  color: #51adf6 !important;
+}
+
+.lightTheme .registration-layout .registration-title {
+  color: #3d3d3d;
+}
+
+.lightTheme .registration-layout .selection-block .selection-title,
+.lightTheme .registration-layout .selection-block .choice-model,
+.lightTheme .registration-layout .selection-block .model-option {
+  color: #3d3d3d;
+}
+
+.lightTheme .registration-layout .selection-block .recommended {
+  background-color: #22d173;
+  color: #171a25;
+}
+
+.lightTheme .registration-layout .selection-block .model-option-value {
+  color: #22d173;
+}
+
+.lightTheme .registration-layout .selection-block .account-option-value {
+  color: #ff276d;
+}
+
+.lightTheme .registration-layout .selection-block .account-security {
+  color: #ff9900;
+}
+
+.lightTheme .registration-layout .selection-block .option-border {
+  border-bottom-color: rgba(23, 26, 37, 0.3);
+}
+
+.lightTheme .registration-layout .selection-block div.inactive-left-block,
+.lightTheme .registration-layout .selection-block div.inactive-right-block {
+  background-color: #c1c1c1;
+}
+
+.lightTheme .registration-layout .plate.inactive-model-block {
+  background-color: rgba(218, 218, 218, 0.4);
+}
+
+.lightTheme .registration-layout .plate {
+  background-color: #dadada;
+}
+
+.lightTheme .registration-layout span.checkbox {
+  border-color: #2196f3;
+  background-color: #2196f3;
+}
+
+.lightTheme .registration-layout span.checkbox-active {
+  border-color: #2196f3;
+  background-color: #2196f3;
+}
+
+.lightTheme .registration-layout span.checkbox-active svg path {
+  fill: #fff;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  .lightTheme .registration-layout .plate {
+    background-color: #c1c1c1;
+  }
+  .lightTheme .registration-layout .plate .header-block,
+  .lightTheme .registration-layout .plate .wallet-block,
+  .lightTheme .registration-layout .plate .account-block,
+  .lightTheme .registration-layout .plate .wallet-block-registration,
+  .lightTheme .registration-layout .plate .account-block-registration {
+    background-color: #dadada;
+  }
+  .lightTheme .registration-layout .plate .header-block .overflow-bg-block .content,
+  .lightTheme .registration-layout .plate .wallet-block .overflow-bg-block .content,
+  .lightTheme .registration-layout .plate .account-block .overflow-bg-block .content,
+  .lightTheme .registration-layout .plate .wallet-block-registration .overflow-bg-block .content,
+  .lightTheme .registration-layout .plate .account-block-registration .overflow-bg-block .content {
+    background-color: #dadada;
+  }
 }
 
 .lightTheme .change-up {
@@ -20291,6 +21060,121 @@ div:last-child .exchange-bordered {
 
 .midnightTheme .login-selector--language-select .login-selector--language-select--wrapper {
   margin-left: 0;
+}
+
+.midnightTheme .registration-layout .attention-note {
+  background-color: rgba(255, 153, 0, 0.06);
+}
+
+.midnightTheme .registration-layout .attention-text {
+  color: #ff9900;
+}
+
+.midnightTheme .registration-layout .button-primary {
+  background-color: #049cce;
+  color: #fff;
+}
+
+.midnightTheme .registration-layout .button-primary:hover {
+  background-color: #0bbffa !important;
+}
+
+.midnightTheme .registration-layout .button-primary:active {
+  background-color: #24c6fb !important;
+}
+
+.midnightTheme .registration-layout .button-secondary {
+  background-color: initial;
+  color: #049cce;
+  border-color: #049cce;
+}
+
+.midnightTheme .registration-layout .button-secondary:hover {
+  border-color: #0bbffa !important;
+  color: #0bbffa !important;
+}
+
+.midnightTheme .registration-layout .button-secondary:active {
+  border-color: #24c6fb !important;
+  color: #0bbffa !important;
+}
+
+.midnightTheme .registration-layout .registration-title {
+  color: #fff;
+}
+
+.midnightTheme .registration-layout .selection-block .selection-title,
+.midnightTheme .registration-layout .selection-block .choice-model,
+.midnightTheme .registration-layout .selection-block .model-option {
+  color: #fff;
+}
+
+.midnightTheme .registration-layout .selection-block .recommended {
+  background-color: #22d173;
+  color: #171a25;
+}
+
+.midnightTheme .registration-layout .selection-block .model-option-value {
+  color: #22d173;
+}
+
+.midnightTheme .registration-layout .selection-block .account-option-value {
+  color: #ff276d;
+}
+
+.midnightTheme .registration-layout .selection-block .account-security {
+  color: #ff9900;
+}
+
+.midnightTheme .registration-layout .selection-block .option-border {
+  border-bottom-color: rgba(23, 26, 37, 0.3);
+}
+
+.midnightTheme .registration-layout .selection-block div.inactive-left-block,
+.midnightTheme .registration-layout .selection-block div.inactive-right-block {
+  background-color: #161f29;
+}
+
+.midnightTheme .registration-layout .plate.inactive-model-block {
+  background-color: rgba(39, 56, 75, 0.4);
+}
+
+.midnightTheme .registration-layout .plate {
+  background-color: #27384b;
+}
+
+.midnightTheme .registration-layout span.checkbox {
+  border-color: #049cce;
+  background-color: #049cce;
+}
+
+.midnightTheme .registration-layout span.checkbox-active {
+  border-color: #049cce;
+  background-color: #049cce;
+}
+
+.midnightTheme .registration-layout span.checkbox-active svg path {
+  fill: #191a1f;
+}
+
+@media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
+  .midnightTheme .registration-layout .plate {
+    background-color: #161f29;
+  }
+  .midnightTheme .registration-layout .plate .header-block,
+  .midnightTheme .registration-layout .plate .wallet-block,
+  .midnightTheme .registration-layout .plate .account-block,
+  .midnightTheme .registration-layout .plate .wallet-block-registration,
+  .midnightTheme .registration-layout .plate .account-block-registration {
+    background-color: #27384b;
+  }
+  .midnightTheme .registration-layout .plate .header-block .overflow-bg-block .content,
+  .midnightTheme .registration-layout .plate .wallet-block .overflow-bg-block .content,
+  .midnightTheme .registration-layout .plate .account-block .overflow-bg-block .content,
+  .midnightTheme .registration-layout .plate .wallet-block-registration .overflow-bg-block .content,
+  .midnightTheme .registration-layout .plate .account-block-registration .overflow-bg-block .content {
+    background-color: #27384b;
+  }
 }
 
 .ant-form-item .ant-form-item-label label {
