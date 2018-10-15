@@ -13744,7 +13744,8 @@ label.ant-checkbox-wrapper > span {
   border-bottom: 1px solid #3f3f3f;
 }
 
-.darkTheme .page-layout .column-header > ul > li.active, .darkTheme .page-layout .column-header > ul li:hover {
+.darkTheme .page-layout .column-header > ul > li.active,
+.darkTheme .page-layout .column-header > ul li:hover {
   border-bottom: 3px solid lightblue;
 }
 
@@ -15654,25 +15655,21 @@ label.ant-checkbox-wrapper > span {
   transform: rotate(-180deg);
 }
 
-.darkTheme .expiration-datetime-picker {
-  width: 225px;
-}
-
 .darkTheme .expiration-datetime-picker > div {
-  float: right;
+  float: left;
 }
 
 .darkTheme .expiration-datetime-picker input {
-  width: 160px;
   padding: 0;
   margin: 0 5px 0 0;
   background: transparent;
   border-radius: 0 !important;
   border-bottom: 1px dotted #a09f9f;
   display: inline-block;
-  text-align: right;
-  font-size: 0.9rem;
-  height: 28px;
+  text-align: left;
+  font-size: 90%;
+  line-height: 1.75rem;
+  height: 1.75rem;
 }
 
 .darkTheme .expiration-datetime-picker input:hover {
@@ -15680,20 +15677,24 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .expiration-datetime-picker select {
-  float: right;
   width: auto;
   padding: 0;
   background: transparent;
   border: 0;
   color: #ffffff;
   border-bottom: 1px dotted #a09f9f;
-  font-size: 0.9rem;
-  height: 28px;
   margin: 0 0 1px;
+  font-size: 90%;
+  line-height: 1.75rem;
+  height: 1.75rem;
 }
 
 .darkTheme .expiration-datetime-picker select > option {
   background-color: #6a6a6a;
+}
+
+.darkTheme .expiration-datetime-picker .expiration-datetime-picker--select--specific {
+  float: right;
 }
 
 .darkTheme .marketPicker {
@@ -16480,7 +16481,8 @@ label.ant-checkbox-wrapper > span {
   border-bottom: 1px solid #e5e6e4;
 }
 
-.lightTheme .page-layout .column-header > ul > li.active, .lightTheme .page-layout .column-header > ul li:hover {
+.lightTheme .page-layout .column-header > ul > li.active,
+.lightTheme .page-layout .column-header > ul li:hover {
   border-bottom: 3px solid lightblue;
 }
 
@@ -18390,25 +18392,21 @@ label.ant-checkbox-wrapper > span {
   transform: rotate(-180deg);
 }
 
-.lightTheme .expiration-datetime-picker {
-  width: 225px;
-}
-
 .lightTheme .expiration-datetime-picker > div {
-  float: right;
+  float: left;
 }
 
 .lightTheme .expiration-datetime-picker input {
-  width: 160px;
   padding: 0;
   margin: 0 5px 0 0;
   background: transparent;
   border-radius: 0 !important;
   border-bottom: 1px dotted #a09f9f;
   display: inline-block;
-  text-align: right;
-  font-size: 0.9rem;
-  height: 28px;
+  text-align: left;
+  font-size: 90%;
+  line-height: 1.75rem;
+  height: 1.75rem;
 }
 
 .lightTheme .expiration-datetime-picker input:hover {
@@ -18416,20 +18414,24 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .expiration-datetime-picker select {
-  float: right;
   width: auto;
   padding: 0;
   background: transparent;
   border: 0;
   color: #242424;
   border-bottom: 1px dotted #a09f9f;
-  font-size: 0.9rem;
-  height: 28px;
   margin: 0 0 1px;
+  font-size: 90%;
+  line-height: 1.75rem;
+  height: 1.75rem;
 }
 
 .lightTheme .expiration-datetime-picker select > option {
   background-color: #fff;
+}
+
+.lightTheme .expiration-datetime-picker .expiration-datetime-picker--select--specific {
+  float: right;
 }
 
 .lightTheme .marketPicker {
@@ -18655,7 +18657,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .icon-fill svg > path {
-  fill: #fff;
+  fill: #3d3d3d;
 }
 
 .lightTheme .icon-fill svg > path:hover {
@@ -19220,7 +19222,8 @@ label.ant-checkbox-wrapper > span {
   border-bottom: 1px solid #2c2e37;
 }
 
-.midnightTheme .page-layout .column-header > ul > li.active, .midnightTheme .page-layout .column-header > ul li:hover {
+.midnightTheme .page-layout .column-header > ul > li.active,
+.midnightTheme .page-layout .column-header > ul li:hover {
   border-bottom: 3px solid lightblue;
 }
 
@@ -21130,25 +21133,21 @@ label.ant-checkbox-wrapper > span {
   transform: rotate(-180deg);
 }
 
-.midnightTheme .expiration-datetime-picker {
-  width: 225px;
-}
-
 .midnightTheme .expiration-datetime-picker > div {
-  float: right;
+  float: left;
 }
 
 .midnightTheme .expiration-datetime-picker input {
-  width: 160px;
   padding: 0;
   margin: 0 5px 0 0;
   background: transparent;
   border-radius: 0 !important;
   border-bottom: 1px dotted #a09f9f;
   display: inline-block;
-  text-align: right;
-  font-size: 0.9rem;
-  height: 28px;
+  text-align: left;
+  font-size: 90%;
+  line-height: 1.75rem;
+  height: 1.75rem;
 }
 
 .midnightTheme .expiration-datetime-picker input:hover {
@@ -21156,20 +21155,24 @@ label.ant-checkbox-wrapper > span {
 }
 
 .midnightTheme .expiration-datetime-picker select {
-  float: right;
   width: auto;
   padding: 0;
   background: transparent;
   border: 0;
   color: #e0e0e0;
   border-bottom: 1px dotted #a09f9f;
-  font-size: 0.9rem;
-  height: 28px;
   margin: 0 0 1px;
+  font-size: 90%;
+  line-height: 1.75rem;
+  height: 1.75rem;
 }
 
 .midnightTheme .expiration-datetime-picker select > option {
   background-color: #353742;
+}
+
+.midnightTheme .expiration-datetime-picker .expiration-datetime-picker--select--specific {
+  float: right;
 }
 
 .midnightTheme .marketPicker {
