@@ -13728,6 +13728,15 @@ label.ant-checkbox-wrapper > span {
   color: #ff3950 !important;
 }
 
+.darkTheme .amount-selector-field .amount-selector-field--balance {
+  float: right;
+  cursor: pointer;
+}
+
+.darkTheme .amount-selector-field .amount-selector-field--balance:hover {
+  color: #1ec3fa;
+}
+
 .darkTheme .dark-text-color {
   color: #444;
 }
@@ -16197,12 +16206,6 @@ label.ant-checkbox-wrapper > span {
   }
 }
 
-.darkTheme .ant-input {
-  border-left: 1px solid #7e7e7e !important;
-  border-top: 1px solid #7e7e7e !important;
-  border-bottom: 1px solid #7e7e7e !important;
-}
-
 .darkTheme i.anticon.icon-fill:hover {
   color: #049cce;
   cursor: pointer;
@@ -16462,6 +16465,15 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .negative {
   color: #e1424a !important;
+}
+
+.lightTheme .amount-selector-field .amount-selector-field--balance {
+  float: right;
+  cursor: pointer;
+}
+
+.lightTheme .amount-selector-field .amount-selector-field--balance:hover {
+  color: #337ab7;
 }
 
 .lightTheme .dark-text-color {
@@ -18933,12 +18945,6 @@ label.ant-checkbox-wrapper > span {
   }
 }
 
-.lightTheme .ant-input {
-  border-left: 1px solid #fcfcfc !important;
-  border-top: 1px solid #fcfcfc !important;
-  border-bottom: 1px solid #fcfcfc !important;
-}
-
 .lightTheme i.anticon.icon-fill:hover {
   color: #049cce;
   cursor: pointer;
@@ -19202,6 +19208,15 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .negative {
   color: #e1424a !important;
+}
+
+.midnightTheme .amount-selector-field .amount-selector-field--balance {
+  float: right;
+  cursor: pointer;
+}
+
+.midnightTheme .amount-selector-field .amount-selector-field--balance:hover {
+  color: #049cce;
 }
 
 .midnightTheme .dark-text-color {
@@ -21671,12 +21686,6 @@ label.ant-checkbox-wrapper > span {
   .midnightTheme .registration-layout .plate .account-block-registration .overflow-bg-block .content {
     background-color: #27384b;
   }
-}
-
-.midnightTheme .ant-input {
-  border-left: 1px solid #474a59 !important;
-  border-top: 1px solid #474a59 !important;
-  border-bottom: 1px solid #474a59 !important;
 }
 
 .midnightTheme i.anticon.icon-fill:hover {
