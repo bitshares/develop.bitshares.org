@@ -11267,6 +11267,10 @@ ul.dropdown.header-menu li.desktop-only {
 
 .active-account {
   padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .header-dropdown-sub-link {
@@ -13906,6 +13910,10 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .action-sheet > ul > li > a:hover {
   color: #fff;
   background-color: #898989;
+}
+
+.darkTheme .account-browsing-mode button {
+  margin-right: 24px;
 }
 
 .darkTheme .__react_component_tooltip.type-light {
@@ -16645,6 +16653,10 @@ label.ant-checkbox-wrapper > span {
 .lightTheme .action-sheet > ul > li > a:hover {
   color: #3d3d3d;
   background-color: white;
+}
+
+.lightTheme .account-browsing-mode button {
+  margin-right: 24px;
 }
 
 .lightTheme .__react_component_tooltip.type-light {
@@ -19388,6 +19400,10 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme .action-sheet > ul > li > a:hover {
   color: #fff;
   background-color: #505364;
+}
+
+.midnightTheme .account-browsing-mode button {
+  margin-right: 24px;
 }
 
 .midnightTheme .__react_component_tooltip.type-light {
