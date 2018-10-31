@@ -10212,7 +10212,7 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 10px 5px 12px 20px;
+  padding: 10px 5px 12px 10px;
   overflow: hidden;
 }
 
@@ -13463,7 +13463,7 @@ div:last-child .exchange-bordered {
 }
 
 .market-layout .inputAddon .ant-input-group-addon {
-  width: 45% !important;
+  width: 60% !important;
   text-align: left !important;
 }
 
@@ -14011,6 +14011,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme {
   /* Table view account */
+  /* Ant Design Hacks */
 }
 
 .darkTheme .explore-witness--info {
@@ -14708,6 +14709,10 @@ label.ant-checkbox-wrapper > span {
   text-align: center;
   color: #afafaf !important;
   background-color: #2a2a2a !important;
+}
+
+.darkTheme div.sticky-table-row.order-row:hover {
+  background-color: #343434;
 }
 
 .darkTheme .block-list {
@@ -15533,7 +15538,7 @@ label.ant-checkbox-wrapper > span {
   background-color: #3f3f3f !important;
   border-bottom: 1px solid grey !important;
   border-top: 1px solid grey !important;
-  padding: 10px 0 !important;
+  padding: 7px 0 !important;
 }
 
 .darkTheme .sticky-table .sticky-table-column,
@@ -15577,10 +15582,6 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .sticky-table-header .sticky-table-row.order-row:hover {
   background-color: #3f3f3f;
-}
-
-.darkTheme .order-table > tbody > tr:nth-of-type(even) {
-  background-color: #3c3c3c;
 }
 
 .darkTheme .mymarkets-header {
@@ -15671,10 +15672,6 @@ label.ant-checkbox-wrapper > span {
   font-style: normal;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-.darkTheme .table > tbody > tr:nth-of-type(even) {
-  background-color: #343434;
 }
 
 .darkTheme .bucket-option {
@@ -16609,6 +16606,20 @@ label.ant-checkbox-wrapper > span {
   zindex: 10000;
 }
 
+.darkTheme .ant-select-arrow {
+  color: #fff !important;
+}
+
+.darkTheme .ant-select-selection-selected-value {
+  color: #fff !important;
+}
+
+.darkTheme .ant-input {
+  border-left: 1px solid #7e7e7e !important;
+  border-top: 1px solid #7e7e7e !important;
+  border-bottom: 1px solid #7e7e7e !important;
+}
+
 .ant-form-item .ant-form-item-label label {
   text-transform: none;
   font-family: Roboto, sans-serif;
@@ -16793,6 +16804,7 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme {
   /* Table view account */
+  /* Ant Design Hacks */
 }
 
 .lightTheme .explore-witness--info {
@@ -17490,6 +17502,10 @@ label.ant-checkbox-wrapper > span {
   text-align: center;
   color: #5d5d5d !important;
   background-color: #fff !important;
+}
+
+.lightTheme div.sticky-table-row.order-row:hover {
+  background-color: white;
 }
 
 .lightTheme .block-list {
@@ -18315,7 +18331,7 @@ label.ant-checkbox-wrapper > span {
   background-color: #e5e6e4 !important;
   border-bottom: 1px solid grey !important;
   border-top: 1px solid grey !important;
-  padding: 10px 0 !important;
+  padding: 7px 0 !important;
 }
 
 .lightTheme .sticky-table .sticky-table-column,
@@ -18359,10 +18375,6 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .sticky-table-header .sticky-table-row.order-row:hover {
   background-color: #e5e6e4;
-}
-
-.lightTheme .order-table > tbody > tr:nth-of-type(even) {
-  background-color: #ffffff;
 }
 
 .lightTheme .mymarkets-header {
@@ -18453,10 +18465,6 @@ label.ant-checkbox-wrapper > span {
   font-style: normal;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-.lightTheme .table > tbody > tr:nth-of-type(even) {
-  background-color: white;
 }
 
 .lightTheme .bucket-option {
@@ -19391,6 +19399,20 @@ label.ant-checkbox-wrapper > span {
   zindex: 10000;
 }
 
+.lightTheme .ant-select-arrow {
+  color: #3d3d3d !important;
+}
+
+.lightTheme .ant-select-selection-selected-value {
+  color: #3d3d3d !important;
+}
+
+.lightTheme .ant-input {
+  border-left: 1px solid #fcfcfc !important;
+  border-top: 1px solid #fcfcfc !important;
+  border-bottom: 1px solid #fcfcfc !important;
+}
+
 .lightTheme .change-up {
   font-weight: bold;
 }
@@ -19579,6 +19601,7 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme {
   /* Table view account */
+  /* Ant Design Hacks */
 }
 
 .midnightTheme .explore-witness--info {
@@ -20276,6 +20299,10 @@ label.ant-checkbox-wrapper > span {
   text-align: center;
   color: #606060 !important;
   background-color: #191a1f !important;
+}
+
+.midnightTheme div.sticky-table-row.order-row:hover {
+  background-color: #22232a;
 }
 
 .midnightTheme .block-list {
@@ -21101,7 +21128,7 @@ label.ant-checkbox-wrapper > span {
   background-color: #2c2e37 !important;
   border-bottom: 1px solid grey !important;
   border-top: 1px solid grey !important;
-  padding: 10px 0 !important;
+  padding: 7px 0 !important;
 }
 
 .midnightTheme .sticky-table .sticky-table-column,
@@ -21145,10 +21172,6 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .sticky-table-header .sticky-table-row.order-row:hover {
   background-color: #2c2e37;
-}
-
-.midnightTheme .order-table > tbody > tr:nth-of-type(even) {
-  background-color: #3c3c3c;
 }
 
 .midnightTheme .mymarkets-header {
@@ -21239,10 +21262,6 @@ label.ant-checkbox-wrapper > span {
   font-style: normal;
   text-transform: uppercase;
   cursor: pointer;
-}
-
-.midnightTheme .table > tbody > tr:nth-of-type(even) {
-  background-color: #22232a;
 }
 
 .midnightTheme .bucket-option {
@@ -22175,6 +22194,20 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .modal--transaction-confirm {
   zindex: 10000;
+}
+
+.midnightTheme .ant-select-arrow {
+  color: #fff !important;
+}
+
+.midnightTheme .ant-select-selection-selected-value {
+  color: #fff !important;
+}
+
+.midnightTheme .ant-input {
+  border-left: 1px solid #474a59 !important;
+  border-top: 1px solid #474a59 !important;
+  border-bottom: 1px solid #474a59 !important;
 }
 
 .ant-form-item .ant-form-item-label label {
