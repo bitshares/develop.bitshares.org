@@ -13931,7 +13931,7 @@ label.ant-checkbox-wrapper > span {
 .header-container .menu-dropdown-wrapper {
   height: 65px;
   width: 65px;
-  text-align: center;
+  text-align: left;
   border-radius: 0;
 }
 
@@ -16724,7 +16724,7 @@ label.ant-checkbox-wrapper > span {
 .header-container .menu-dropdown-wrapper {
   height: 65px;
   width: 65px;
-  text-align: center;
+  text-align: left;
   border-radius: 0;
 }
 
@@ -19521,7 +19521,7 @@ label.ant-checkbox-wrapper > span {
 .header-container .menu-dropdown-wrapper {
   height: 65px;
   width: 65px;
-  text-align: center;
+  text-align: left;
   border-radius: 0;
 }
 
