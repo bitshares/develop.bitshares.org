@@ -14044,7 +14044,6 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme {
   /* Table view account */
-  /* Ant Design Hacks */
 }
 
 .darkTheme .explore-witness--info {
@@ -16639,20 +16638,6 @@ label.ant-checkbox-wrapper > span {
   zindex: 10000;
 }
 
-.darkTheme .ant-select-arrow {
-  color: #fff !important;
-}
-
-.darkTheme .ant-select-selection-selected-value {
-  color: #fff !important;
-}
-
-.darkTheme .ant-input {
-  border-left: 1px solid #7e7e7e !important;
-  border-top: 1px solid #7e7e7e !important;
-  border-bottom: 1px solid #7e7e7e !important;
-}
-
 .ant-form-item .ant-form-item-label label {
   text-transform: none;
   font-family: Roboto, sans-serif;
@@ -16837,7 +16822,6 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme {
   /* Table view account */
-  /* Ant Design Hacks */
 }
 
 .lightTheme .explore-witness--info {
@@ -19432,20 +19416,6 @@ label.ant-checkbox-wrapper > span {
   zindex: 10000;
 }
 
-.lightTheme .ant-select-arrow {
-  color: #3d3d3d !important;
-}
-
-.lightTheme .ant-select-selection-selected-value {
-  color: #3d3d3d !important;
-}
-
-.lightTheme .ant-input {
-  border-left: 1px solid #fcfcfc !important;
-  border-top: 1px solid #fcfcfc !important;
-  border-bottom: 1px solid #fcfcfc !important;
-}
-
 .lightTheme .change-up {
   font-weight: bold;
 }
@@ -19634,7 +19604,6 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme {
   /* Table view account */
-  /* Ant Design Hacks */
 }
 
 .midnightTheme .explore-witness--info {
@@ -22227,20 +22196,6 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .modal--transaction-confirm {
   zindex: 10000;
-}
-
-.midnightTheme .ant-select-arrow {
-  color: #fff !important;
-}
-
-.midnightTheme .ant-select-selection-selected-value {
-  color: #fff !important;
-}
-
-.midnightTheme .ant-input {
-  border-left: 1px solid #474a59 !important;
-  border-top: 1px solid #474a59 !important;
-  border-bottom: 1px solid #474a59 !important;
 }
 
 .ant-form-item .ant-form-item-label label {
