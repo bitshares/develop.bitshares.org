@@ -9721,6 +9721,40 @@ div#CenterContent {
   padding-bottom: 2rem !important;
 }
 
+.exchange--price-alert--show-modal {
+  cursor: pointer;
+}
+
+.exchange--price-alert .exchange--price-alert--items {
+  margin: 16px 0;
+}
+
+.exchange--price-alert .exchange--price-alert--items--add {
+  text-align: right;
+  padding-right: 32px;
+}
+
+.exchange--price-alert .exchange--price-alert--item {
+  margin: 8px 0 !important;
+}
+
+.exchange--price-alert .exchange--price-alert--item:first-child {
+  margin-top: 0 !important;
+}
+
+.exchange--price-alert .exchange--price-alert--item:last-child {
+  margin-bottom: 0 !important;
+}
+
+.exchange--price-alert .exchange--price-alert--item .exchange--price-alert--item--control {
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.exchange--price-alert .exchange--price-alert--item .exchange--price-alert--item--control:focus {
+  box-shadow: none !important;
+}
+
 .market-layout .column-header {
   width: 100%;
   padding-right: 10px;
@@ -12575,6 +12609,22 @@ div.registration .create-account-block {
   text-align: left;
 }
 
+div.registration .create-account-block span.inline-label {
+  max-width: 30rem;
+}
+
+div.registration .create-account-block span.inline-label.generated-password-field {
+  margin-bottom: 1.5rem;
+}
+
+div.registration .create-account-block span.inline-label .button {
+  border-radius: 0;
+}
+
+div.registration .create-account-block span.inline-label input {
+  padding-right: 0;
+}
+
 @media only screen and (min-width: 75em) {
   div.registration .create-account-block .account-name,
   div.registration .create-account-block .account-selector {
@@ -14046,6 +14096,30 @@ label.ant-checkbox-wrapper > span {
   /* Table view account */
 }
 
+.darkTheme .exchange--price-alert--show-modal--active {
+  color: #1ec3fa;
+}
+
+.darkTheme .price-alert--notification--pair-name {
+  font-weight: 600;
+}
+
+.darkTheme .price-alert--notification--icon.price-alert--notification--icon--up {
+  color: #258a14;
+}
+
+.darkTheme .price-alert--notification--icon.price-alert--notification--icon--down {
+  color: #ff3950;
+}
+
+.darkTheme .price-alert--notification--actual-price.price-alert--notification--actual-price-up {
+  color: #258a14;
+}
+
+.darkTheme .price-alert--notification--actual-price.price-alert--notification--actual-price-down {
+  color: #ff3950;
+}
+
 .darkTheme .explore-witness--info {
   width: 100%;
   border: 1px solid #565656;
@@ -14640,10 +14714,8 @@ label.ant-checkbox-wrapper > span {
   color: #1ec3fa;
 }
 
-.darkTheme .header-container .anticon {
-  color: #ffffff !important;
-  background-color: #ffffff !important;
-  fill: #ffffff !important;
+.darkTheme .blue {
+  color: #049cce;
 }
 
 .darkTheme .grp-menu-item button:hover, .darkTheme .grp-menu-item button:focus, .darkTheme .grp-menu-item button:active {
@@ -16824,6 +16896,30 @@ label.ant-checkbox-wrapper > span {
   /* Table view account */
 }
 
+.lightTheme .exchange--price-alert--show-modal--active {
+  color: #337ab7;
+}
+
+.lightTheme .price-alert--notification--pair-name {
+  font-weight: 600;
+}
+
+.lightTheme .price-alert--notification--icon.price-alert--notification--icon--up {
+  color: #528c0a;
+}
+
+.lightTheme .price-alert--notification--icon.price-alert--notification--icon--down {
+  color: #e1424a;
+}
+
+.lightTheme .price-alert--notification--actual-price.price-alert--notification--actual-price-up {
+  color: #528c0a;
+}
+
+.lightTheme .price-alert--notification--actual-price.price-alert--notification--actual-price-down {
+  color: #e1424a;
+}
+
 .lightTheme .explore-witness--info {
   width: 100%;
   border: 1px solid #a2a2a2;
@@ -17418,10 +17514,8 @@ label.ant-checkbox-wrapper > span {
   color: #337ab7;
 }
 
-.lightTheme .header-container .anticon {
-  color: #242424 !important;
-  background-color: #242424 !important;
-  fill: #242424 !important;
+.lightTheme .blue {
+  color: #2196f3;
 }
 
 .lightTheme .grp-menu-item button:hover, .lightTheme .grp-menu-item button:focus, .lightTheme .grp-menu-item button:active {
@@ -19606,6 +19700,30 @@ label.ant-checkbox-wrapper > span {
   /* Table view account */
 }
 
+.midnightTheme .exchange--price-alert--show-modal--active {
+  color: #049cce;
+}
+
+.midnightTheme .price-alert--notification--pair-name {
+  font-weight: 600;
+}
+
+.midnightTheme .price-alert--notification--icon.price-alert--notification--icon--up {
+  color: #6ec105;
+}
+
+.midnightTheme .price-alert--notification--icon.price-alert--notification--icon--down {
+  color: #e1424a;
+}
+
+.midnightTheme .price-alert--notification--actual-price.price-alert--notification--actual-price-up {
+  color: #6ec105;
+}
+
+.midnightTheme .price-alert--notification--actual-price.price-alert--notification--actual-price-down {
+  color: #e1424a;
+}
+
 .midnightTheme .explore-witness--info {
   width: 100%;
   border: 1px solid #484848;
@@ -20200,10 +20318,8 @@ label.ant-checkbox-wrapper > span {
   color: #049cce;
 }
 
-.midnightTheme .header-container .anticon {
-  color: #e0e0e0 !important;
-  background-color: #e0e0e0 !important;
-  fill: #e0e0e0 !important;
+.midnightTheme .blue {
+  color: #049cce;
 }
 
 .midnightTheme .grp-menu-item button:hover, .midnightTheme .grp-menu-item button:focus, .midnightTheme .grp-menu-item button:active {
