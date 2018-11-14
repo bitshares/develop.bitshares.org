@@ -16223,7 +16223,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .introjs-launcher {
-  margin-left: 15px;
+  margin-left: 5px;
   background-color: #049cce;
   padding: 0 10px;
   font-size: 18px;
@@ -19023,7 +19023,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .introjs-launcher {
-  margin-left: 15px;
+  margin-left: 5px;
   background-color: #049cce;
   padding: 0 10px;
   font-size: 18px;
@@ -21827,7 +21827,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .midnightTheme .introjs-launcher {
-  margin-left: 15px;
+  margin-left: 5px;
   background-color: #049cce;
   padding: 0 10px;
   font-size: 18px;
