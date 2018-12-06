@@ -10714,7 +10714,9 @@ label.horizontal > input {
   font-size: 0.875rem;
 }
 
-.has-error input, .has-error select, .has-error textarea {
+.has-error input,
+.has-error select,
+.has-error textarea {
   border-color: #a94442;
 }
 
@@ -10726,7 +10728,8 @@ label.horizontal > input {
   left: 6em;
 }
 
-td > input, td > .autocomplete input {
+td > input,
+td > .autocomplete input {
   margin: 0 !important;
 }
 
@@ -10743,50 +10746,77 @@ div.account-image .icon.key > svg {
   width: 2.4rem !important;
 }
 
+.asset-select .ant-select {
+  width: 100%;
+}
+
+.asset-input.with-action .ant-input {
+  width: auto;
+}
+
 .asset-selector .error-area {
   position: absolute;
 }
 
-.account-selector, .pubkey-input {
+.asset-input.ant-form-item .ant-form-item-control {
+  max-width: none;
+}
+
+.asset-input.ant-form-item .ant-form-item-label label {
+  text-transform: uppercase;
+}
+
+.account-selector,
+.pubkey-input {
   clear: right;
 }
 
-.account-selector input, .pubkey-input input {
+.account-selector input,
+.pubkey-input input {
   display: block;
   flex: auto;
 }
 
-.account-selector .tooltip:hover, .pubkey-input .tooltip:hover {
+.account-selector .tooltip:hover,
+.pubkey-input .tooltip:hover {
   cursor: pointer;
 }
 
-.account-selector .header-area, .pubkey-input .header-area {
+.account-selector .header-area,
+.pubkey-input .header-area {
   margin-left: 3.5rem;
 }
 
-.account-selector .error-area, .pubkey-input .error-area {
+.account-selector .error-area,
+.pubkey-input .error-area {
   position: absolute;
   padding-left: 3.5rem;
 }
 
-.account-selector .account-image, .pubkey-input .account-image {
+.account-selector .account-image,
+.pubkey-input .account-image {
   float: left;
   width: 3.5rem;
 }
 
-.account-selector .account-image > canvas, .account-selector .account-image .icon.key > svg, .pubkey-input .account-image > canvas, .pubkey-input .account-image .icon.key > svg {
+.account-selector .account-image > canvas,
+.account-selector .account-image .icon.key > svg,
+.pubkey-input .account-image > canvas,
+.pubkey-input .account-image .icon.key > svg {
   height: 2.4rem !important;
   width: 2.4rem !important;
 }
 
-.account-selector > .content-area, .pubkey-input > .content-area {
+.account-selector > .content-area,
+.pubkey-input > .content-area {
   position: relative;
   width: 100%;
   display: inline-block;
 }
 
 @media only screen and (min-width: 0em) and (max-width: 39.9375rem) {
-  .account-selector > .content-area, .pubkey-input > .content-area {
+  .account-selector > .content-area,
+  .pubkey-input > .content-area {
     width: 100%;
   }
 }
@@ -10797,7 +10827,8 @@ div.account-image .icon.key > svg {
   line-height: normal;
 }
 
-.right-label, .left-label {
+.right-label,
+.left-label {
   font-size: 90%;
   text-transform: uppercase;
   font-variant: small-caps;
@@ -10972,7 +11003,8 @@ div.ok-indicator {
   right: 10px;
 }
 
-div.dropdown-wrapper.upper-case > div, div.dropdown-wrapper.upper-case > ul > li {
+div.dropdown-wrapper.upper-case > div,
+div.dropdown-wrapper.upper-case > ul > li {
   text-transform: uppercase;
 }
 
@@ -10980,53 +11012,70 @@ form.full-width section > input {
   max-width: 100%;
 }
 
-#send_modal_header, #send_modal_portfolio {
+#send_modal_header,
+#send_modal_portfolio {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#send_modal_header .right-label, #send_modal_header .left-label, #send_modal_portfolio .right-label, #send_modal_portfolio .left-label {
+#send_modal_header .right-label,
+#send_modal_header .left-label,
+#send_modal_portfolio .right-label,
+#send_modal_portfolio .left-label {
   padding-bottom: 0px;
 }
 
-#send_modal_header .dropdown-wrapper.active .dropdown, #send_modal_portfolio .dropdown-wrapper.active .dropdown {
+#send_modal_header .dropdown-wrapper.active .dropdown,
+#send_modal_portfolio .dropdown-wrapper.active .dropdown {
   max-height: 250px;
 }
 
-#send_modal_header #txFeeSelector .dropdown-wrapper.active .dropdown, #send_modal_portfolio #txFeeSelector .dropdown-wrapper.active .dropdown {
+#send_modal_header #txFeeSelector .dropdown-wrapper.active .dropdown,
+#send_modal_portfolio #txFeeSelector .dropdown-wrapper.active .dropdown {
   max-height: 100px;
 }
 
-#send_modal_header .account-selector .error-area, #send_modal_portfolio .account-selector .error-area {
+#send_modal_header .account-selector .error-area,
+#send_modal_portfolio .account-selector .error-area {
   display: none;
 }
 
-#send_modal_header .account-select, #send_modal_portfolio .account-select {
+#send_modal_header .account-select,
+#send_modal_portfolio .account-select {
   width: 100%;
 }
 
-#send_modal_header, #send_modal_portfolio {
+#send_modal_header,
+#send_modal_portfolio {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-#send_modal_header .right-label, #send_modal_header .left-label, #send_modal_portfolio .right-label, #send_modal_portfolio .left-label {
+#send_modal_header .right-label,
+#send_modal_header .left-label,
+#send_modal_portfolio .right-label,
+#send_modal_portfolio .left-label {
   padding-bottom: 0px;
 }
 
-#send_modal_header .dropdown-wrapper.active .dropdown, #send_modal_portfolio .dropdown-wrapper.active .dropdown {
+#send_modal_header .dropdown-wrapper.active .dropdown,
+#send_modal_portfolio .dropdown-wrapper.active .dropdown {
   max-height: 250px;
 }
 
-#send_modal_header #txFeeSelector .dropdown-wrapper.active .dropdown, #send_modal_portfolio #txFeeSelector .dropdown-wrapper.active .dropdown {
+#send_modal_header #txFeeSelector .dropdown-wrapper.active .dropdown,
+#send_modal_portfolio #txFeeSelector .dropdown-wrapper.active .dropdown {
   max-height: 100px;
 }
 
-#send_modal_header .account-selector .error-area, #send_modal_portfolio .account-selector .error-area {
+#send_modal_header .account-selector .error-area,
+#send_modal_portfolio .account-selector .error-area {
   display: none;
 }
 
-button.red, button.green, button.blue {
+button.red,
+button.green,
+button.blue {
   padding: 10px 0px 10px 0px;
   width: 8rem;
   color: #f2f2f2;
@@ -11079,7 +11128,7 @@ a.button span {
   margin: 1rem 0;
 }
 
-input[type=text].input-button {
+input[type="text"].input-button {
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
 }
