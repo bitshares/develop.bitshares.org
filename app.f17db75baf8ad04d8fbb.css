@@ -8053,10 +8053,6 @@ div.has-error > input:focus {
   color: #a94442;
 }
 
-.has-error, .facolor-error, .facolor-warning {
-  max-width: 30rem;
-}
-
 .menu-bar.primary > li > a.active {
   background: #414141;
   color: #fff;
@@ -8073,7 +8069,7 @@ div.has-error > input:focus {
 
 a {
   cursor: pointer;
-  color: #008CBA;
+  color: #008cba;
 }
 
 .tabs {
@@ -8102,7 +8098,12 @@ a {
   background: none;
 }
 
-.label, .label.warning, .label.success, .label.info, .label.cancel, .label.alert {
+.label,
+.label.warning,
+.label.success,
+.label.info,
+.label.cancel,
+.label.alert {
   background-color: transparent;
   border: 1px solid #444;
   border-radius: 4px;
@@ -8663,7 +8664,12 @@ button,
   font-style: normal;
 }
 
-.label, .label.warning, .label.success, .label.info, .label.cancel, .label.alert {
+.label,
+.label.warning,
+.label.success,
+.label.info,
+.label.cancel,
+.label.alert {
   font-family: "Roboto-Regular", arial, sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -9287,6 +9293,15 @@ div.tabs-container .action-buttons button {
   font-family: "Roboto-Regular", arial, sans-serif;
   font-weight: normal;
   font-style: normal;
+}
+
+.account-input-style-guide--account-status {
+  float: right;
+  color: #43ac6a;
+}
+
+.account-input-style-guide--account-status--scammer {
+  color: #f04124;
 }
 
 div.divider {
@@ -13614,6 +13629,13 @@ div:last-child .exchange-bordered {
 /* Modal Overrides */
 label.ant-checkbox-wrapper > span {
   text-transform: none !important;
+}
+
+.registration-layout .registration-layout--copy-password-btn {
+  position: absolute;
+  right: 0;
+  border-radius: 0 !important;
+  height: 74px;
 }
 
 .registration-layout .display-none {
