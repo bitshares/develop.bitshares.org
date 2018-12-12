@@ -13547,8 +13547,8 @@ div:last-child .exchange-bordered {
 }
 
 /*
- * Ant Design SCSS Overrides 
- * 
+ * Ant Design SCSS Overrides
+ *
  * These overrides are highly temporary and should be solved as soon as possible
 */
 /* Exchange Overrides */
@@ -13558,10 +13558,6 @@ div:last-child .exchange-bordered {
 
 .market-layout .ant-btn {
   padding: 0 19px !important;
-}
-
-.market-layout .ant-input-wrapper.ant-input-group input {
-  border-radius: 5px 0px 0px 5px !important;
 }
 
 .market-layout .ant-input:focus {
@@ -15098,64 +15094,18 @@ label.ant-checkbox-wrapper > span {
 .darkTheme textarea:not([class*="ant-"]),
 .darkTheme input[role="combobox"]:not([class*="ant-"]),
 .darkTheme select[role="combobox"]:not([class*="ant-"]),
-.darkTheme .buy-sell-container .ant-input {
-  background-color: #2d2d2d;
-  border: 0;
-  color: #ffffff;
-}
-
-.darkTheme input[type="text"]:not([class*="ant-"]):hover, .darkTheme input[type="text"]:not([class*="ant-"]):focus, .darkTheme input[type="text"]:not([class*="ant-"]):active, .darkTheme input[type="text"]:not([class*="ant-"]):disabled,
-.darkTheme input[type="password"]:not([class*="ant-"]):hover,
-.darkTheme input[type="password"]:not([class*="ant-"]):focus,
-.darkTheme input[type="password"]:not([class*="ant-"]):active,
-.darkTheme input[type="password"]:not([class*="ant-"]):disabled,
-.darkTheme input[type="email"]:not([class*="ant-"]):hover,
-.darkTheme input[type="email"]:not([class*="ant-"]):focus,
-.darkTheme input[type="email"]:not([class*="ant-"]):active,
-.darkTheme input[type="email"]:not([class*="ant-"]):disabled,
-.darkTheme input[type="number"]:not([class*="ant-"]):hover,
-.darkTheme input[type="number"]:not([class*="ant-"]):focus,
-.darkTheme input[type="number"]:not([class*="ant-"]):active,
-.darkTheme input[type="number"]:not([class*="ant-"]):disabled,
-.darkTheme input[type="search"]:not([class*="ant-"]):hover,
-.darkTheme input[type="search"]:not([class*="ant-"]):focus,
-.darkTheme input[type="search"]:not([class*="ant-"]):active,
-.darkTheme input[type="search"]:not([class*="ant-"]):disabled,
-.darkTheme textarea:not([class*="ant-"]):hover,
-.darkTheme textarea:not([class*="ant-"]):focus,
-.darkTheme textarea:not([class*="ant-"]):active,
-.darkTheme textarea:not([class*="ant-"]):disabled,
-.darkTheme input[role="combobox"]:not([class*="ant-"]):hover,
-.darkTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.darkTheme input[role="combobox"]:not([class*="ant-"]):active,
-.darkTheme input[role="combobox"]:not([class*="ant-"]):disabled,
-.darkTheme select[role="combobox"]:not([class*="ant-"]):hover,
-.darkTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.darkTheme select[role="combobox"]:not([class*="ant-"]):active,
-.darkTheme select[role="combobox"]:not([class*="ant-"]):disabled,
-.darkTheme .buy-sell-container .ant-input:hover,
-.darkTheme .buy-sell-container .ant-input:focus,
-.darkTheme .buy-sell-container .ant-input:active,
-.darkTheme .buy-sell-container .ant-input:disabled {
-  background-color: #2d2d2d;
-}
-
-.darkTheme input[type="text"]:not([class*="ant-"]):focus,
-.darkTheme input[type="password"]:not([class*="ant-"]):focus,
-.darkTheme input[type="email"]:not([class*="ant-"]):focus,
-.darkTheme input[type="number"]:not([class*="ant-"]):focus,
-.darkTheme input[type="search"]:not([class*="ant-"]):focus,
-.darkTheme textarea:not([class*="ant-"]):focus,
-.darkTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.darkTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.darkTheme .buy-sell-container .ant-input:focus {
-  border-color: #aaa;
-}
-
 .darkTheme input[type="range"] {
   /* These need to be independent selectors */
 }
 
+.darkTheme input[type="text"]:not([class*="ant-"])::-moz-range-thumb,
+.darkTheme input[type="password"]:not([class*="ant-"])::-moz-range-thumb,
+.darkTheme input[type="email"]:not([class*="ant-"])::-moz-range-thumb,
+.darkTheme input[type="number"]:not([class*="ant-"])::-moz-range-thumb,
+.darkTheme input[type="search"]:not([class*="ant-"])::-moz-range-thumb,
+.darkTheme textarea:not([class*="ant-"])::-moz-range-thumb,
+.darkTheme input[role="combobox"]:not([class*="ant-"])::-moz-range-thumb,
+.darkTheme select[role="combobox"]:not([class*="ant-"])::-moz-range-thumb,
 .darkTheme input[type="range"]::-moz-range-thumb {
   background: #1ec3fa;
   outline: none;
@@ -15163,6 +15113,14 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.darkTheme input[type="text"]:not([class*="ant-"])::-webkit-slider-thumb,
+.darkTheme input[type="password"]:not([class*="ant-"])::-webkit-slider-thumb,
+.darkTheme input[type="email"]:not([class*="ant-"])::-webkit-slider-thumb,
+.darkTheme input[type="number"]:not([class*="ant-"])::-webkit-slider-thumb,
+.darkTheme input[type="search"]:not([class*="ant-"])::-webkit-slider-thumb,
+.darkTheme textarea:not([class*="ant-"])::-webkit-slider-thumb,
+.darkTheme input[role="combobox"]:not([class*="ant-"])::-webkit-slider-thumb,
+.darkTheme select[role="combobox"]:not([class*="ant-"])::-webkit-slider-thumb,
 .darkTheme input[type="range"]::-webkit-slider-thumb {
   background: #1ec3fa;
   outline: none;
@@ -15170,6 +15128,14 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.darkTheme input[type="text"]:not([class*="ant-"])::-ms-thumb,
+.darkTheme input[type="password"]:not([class*="ant-"])::-ms-thumb,
+.darkTheme input[type="email"]:not([class*="ant-"])::-ms-thumb,
+.darkTheme input[type="number"]:not([class*="ant-"])::-ms-thumb,
+.darkTheme input[type="search"]:not([class*="ant-"])::-ms-thumb,
+.darkTheme textarea:not([class*="ant-"])::-ms-thumb,
+.darkTheme input[role="combobox"]:not([class*="ant-"])::-ms-thumb,
+.darkTheme select[role="combobox"]:not([class*="ant-"])::-ms-thumb,
 .darkTheme input[type="range"]::-ms-thumb {
   background: #1ec3fa;
   outline: none;
@@ -15177,16 +15143,40 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.darkTheme input[type="text"]:not([class*="ant-"])::-moz-range-track,
+.darkTheme input[type="password"]:not([class*="ant-"])::-moz-range-track,
+.darkTheme input[type="email"]:not([class*="ant-"])::-moz-range-track,
+.darkTheme input[type="number"]:not([class*="ant-"])::-moz-range-track,
+.darkTheme input[type="search"]:not([class*="ant-"])::-moz-range-track,
+.darkTheme textarea:not([class*="ant-"])::-moz-range-track,
+.darkTheme input[role="combobox"]:not([class*="ant-"])::-moz-range-track,
+.darkTheme select[role="combobox"]:not([class*="ant-"])::-moz-range-track,
 .darkTheme input[type="range"]::-moz-range-track {
   background-color: #2d2d2d;
   border-radius: 3px;
 }
 
+.darkTheme input[type="text"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.darkTheme input[type="password"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.darkTheme input[type="email"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.darkTheme input[type="number"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.darkTheme input[type="search"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.darkTheme textarea:not([class*="ant-"])::-webkit-slider-runnable-track,
+.darkTheme input[role="combobox"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.darkTheme select[role="combobox"]:not([class*="ant-"])::-webkit-slider-runnable-track,
 .darkTheme input[type="range"]::-webkit-slider-runnable-track {
   background-color: #2d2d2d;
   border-radius: 3px;
 }
 
+.darkTheme input[type="text"]:not([class*="ant-"])::-ms-track,
+.darkTheme input[type="password"]:not([class*="ant-"])::-ms-track,
+.darkTheme input[type="email"]:not([class*="ant-"])::-ms-track,
+.darkTheme input[type="number"]:not([class*="ant-"])::-ms-track,
+.darkTheme input[type="search"]:not([class*="ant-"])::-ms-track,
+.darkTheme textarea:not([class*="ant-"])::-ms-track,
+.darkTheme input[role="combobox"]:not([class*="ant-"])::-ms-track,
+.darkTheme select[role="combobox"]:not([class*="ant-"])::-ms-track,
 .darkTheme input[type="range"]::-ms-track {
   background-color: #2d2d2d;
   border-radius: 3px;
@@ -17991,64 +17981,18 @@ label.ant-checkbox-wrapper > span {
 .lightTheme textarea:not([class*="ant-"]),
 .lightTheme input[role="combobox"]:not([class*="ant-"]),
 .lightTheme select[role="combobox"]:not([class*="ant-"]),
-.lightTheme .buy-sell-container .ant-input {
-  background-color: #ebebeb;
-  border: 0;
-  color: #242424;
-}
-
-.lightTheme input[type="text"]:not([class*="ant-"]):hover, .lightTheme input[type="text"]:not([class*="ant-"]):focus, .lightTheme input[type="text"]:not([class*="ant-"]):active, .lightTheme input[type="text"]:not([class*="ant-"]):disabled,
-.lightTheme input[type="password"]:not([class*="ant-"]):hover,
-.lightTheme input[type="password"]:not([class*="ant-"]):focus,
-.lightTheme input[type="password"]:not([class*="ant-"]):active,
-.lightTheme input[type="password"]:not([class*="ant-"]):disabled,
-.lightTheme input[type="email"]:not([class*="ant-"]):hover,
-.lightTheme input[type="email"]:not([class*="ant-"]):focus,
-.lightTheme input[type="email"]:not([class*="ant-"]):active,
-.lightTheme input[type="email"]:not([class*="ant-"]):disabled,
-.lightTheme input[type="number"]:not([class*="ant-"]):hover,
-.lightTheme input[type="number"]:not([class*="ant-"]):focus,
-.lightTheme input[type="number"]:not([class*="ant-"]):active,
-.lightTheme input[type="number"]:not([class*="ant-"]):disabled,
-.lightTheme input[type="search"]:not([class*="ant-"]):hover,
-.lightTheme input[type="search"]:not([class*="ant-"]):focus,
-.lightTheme input[type="search"]:not([class*="ant-"]):active,
-.lightTheme input[type="search"]:not([class*="ant-"]):disabled,
-.lightTheme textarea:not([class*="ant-"]):hover,
-.lightTheme textarea:not([class*="ant-"]):focus,
-.lightTheme textarea:not([class*="ant-"]):active,
-.lightTheme textarea:not([class*="ant-"]):disabled,
-.lightTheme input[role="combobox"]:not([class*="ant-"]):hover,
-.lightTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.lightTheme input[role="combobox"]:not([class*="ant-"]):active,
-.lightTheme input[role="combobox"]:not([class*="ant-"]):disabled,
-.lightTheme select[role="combobox"]:not([class*="ant-"]):hover,
-.lightTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.lightTheme select[role="combobox"]:not([class*="ant-"]):active,
-.lightTheme select[role="combobox"]:not([class*="ant-"]):disabled,
-.lightTheme .buy-sell-container .ant-input:hover,
-.lightTheme .buy-sell-container .ant-input:focus,
-.lightTheme .buy-sell-container .ant-input:active,
-.lightTheme .buy-sell-container .ant-input:disabled {
-  background-color: #ebebeb;
-}
-
-.lightTheme input[type="text"]:not([class*="ant-"]):focus,
-.lightTheme input[type="password"]:not([class*="ant-"]):focus,
-.lightTheme input[type="email"]:not([class*="ant-"]):focus,
-.lightTheme input[type="number"]:not([class*="ant-"]):focus,
-.lightTheme input[type="search"]:not([class*="ant-"]):focus,
-.lightTheme textarea:not([class*="ant-"]):focus,
-.lightTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.lightTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.lightTheme .buy-sell-container .ant-input:focus {
-  border-color: #aaa;
-}
-
 .lightTheme input[type="range"] {
   /* These need to be independent selectors */
 }
 
+.lightTheme input[type="text"]:not([class*="ant-"])::-moz-range-thumb,
+.lightTheme input[type="password"]:not([class*="ant-"])::-moz-range-thumb,
+.lightTheme input[type="email"]:not([class*="ant-"])::-moz-range-thumb,
+.lightTheme input[type="number"]:not([class*="ant-"])::-moz-range-thumb,
+.lightTheme input[type="search"]:not([class*="ant-"])::-moz-range-thumb,
+.lightTheme textarea:not([class*="ant-"])::-moz-range-thumb,
+.lightTheme input[role="combobox"]:not([class*="ant-"])::-moz-range-thumb,
+.lightTheme select[role="combobox"]:not([class*="ant-"])::-moz-range-thumb,
 .lightTheme input[type="range"]::-moz-range-thumb {
   background: #337ab7;
   outline: none;
@@ -18056,6 +18000,14 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.lightTheme input[type="text"]:not([class*="ant-"])::-webkit-slider-thumb,
+.lightTheme input[type="password"]:not([class*="ant-"])::-webkit-slider-thumb,
+.lightTheme input[type="email"]:not([class*="ant-"])::-webkit-slider-thumb,
+.lightTheme input[type="number"]:not([class*="ant-"])::-webkit-slider-thumb,
+.lightTheme input[type="search"]:not([class*="ant-"])::-webkit-slider-thumb,
+.lightTheme textarea:not([class*="ant-"])::-webkit-slider-thumb,
+.lightTheme input[role="combobox"]:not([class*="ant-"])::-webkit-slider-thumb,
+.lightTheme select[role="combobox"]:not([class*="ant-"])::-webkit-slider-thumb,
 .lightTheme input[type="range"]::-webkit-slider-thumb {
   background: #337ab7;
   outline: none;
@@ -18063,6 +18015,14 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.lightTheme input[type="text"]:not([class*="ant-"])::-ms-thumb,
+.lightTheme input[type="password"]:not([class*="ant-"])::-ms-thumb,
+.lightTheme input[type="email"]:not([class*="ant-"])::-ms-thumb,
+.lightTheme input[type="number"]:not([class*="ant-"])::-ms-thumb,
+.lightTheme input[type="search"]:not([class*="ant-"])::-ms-thumb,
+.lightTheme textarea:not([class*="ant-"])::-ms-thumb,
+.lightTheme input[role="combobox"]:not([class*="ant-"])::-ms-thumb,
+.lightTheme select[role="combobox"]:not([class*="ant-"])::-ms-thumb,
 .lightTheme input[type="range"]::-ms-thumb {
   background: #337ab7;
   outline: none;
@@ -18070,16 +18030,40 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.lightTheme input[type="text"]:not([class*="ant-"])::-moz-range-track,
+.lightTheme input[type="password"]:not([class*="ant-"])::-moz-range-track,
+.lightTheme input[type="email"]:not([class*="ant-"])::-moz-range-track,
+.lightTheme input[type="number"]:not([class*="ant-"])::-moz-range-track,
+.lightTheme input[type="search"]:not([class*="ant-"])::-moz-range-track,
+.lightTheme textarea:not([class*="ant-"])::-moz-range-track,
+.lightTheme input[role="combobox"]:not([class*="ant-"])::-moz-range-track,
+.lightTheme select[role="combobox"]:not([class*="ant-"])::-moz-range-track,
 .lightTheme input[type="range"]::-moz-range-track {
   background-color: #ebebeb;
   border-radius: 3px;
 }
 
+.lightTheme input[type="text"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.lightTheme input[type="password"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.lightTheme input[type="email"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.lightTheme input[type="number"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.lightTheme input[type="search"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.lightTheme textarea:not([class*="ant-"])::-webkit-slider-runnable-track,
+.lightTheme input[role="combobox"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.lightTheme select[role="combobox"]:not([class*="ant-"])::-webkit-slider-runnable-track,
 .lightTheme input[type="range"]::-webkit-slider-runnable-track {
   background-color: #ebebeb;
   border-radius: 3px;
 }
 
+.lightTheme input[type="text"]:not([class*="ant-"])::-ms-track,
+.lightTheme input[type="password"]:not([class*="ant-"])::-ms-track,
+.lightTheme input[type="email"]:not([class*="ant-"])::-ms-track,
+.lightTheme input[type="number"]:not([class*="ant-"])::-ms-track,
+.lightTheme input[type="search"]:not([class*="ant-"])::-ms-track,
+.lightTheme textarea:not([class*="ant-"])::-ms-track,
+.lightTheme input[role="combobox"]:not([class*="ant-"])::-ms-track,
+.lightTheme select[role="combobox"]:not([class*="ant-"])::-ms-track,
 .lightTheme input[type="range"]::-ms-track {
   background-color: #ebebeb;
   border-radius: 3px;
@@ -20888,64 +20872,18 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme textarea:not([class*="ant-"]),
 .midnightTheme input[role="combobox"]:not([class*="ant-"]),
 .midnightTheme select[role="combobox"]:not([class*="ant-"]),
-.midnightTheme .buy-sell-container .ant-input {
-  background-color: #1b1c22;
-  border: 0;
-  color: #e0e0e0;
-}
-
-.midnightTheme input[type="text"]:not([class*="ant-"]):hover, .midnightTheme input[type="text"]:not([class*="ant-"]):focus, .midnightTheme input[type="text"]:not([class*="ant-"]):active, .midnightTheme input[type="text"]:not([class*="ant-"]):disabled,
-.midnightTheme input[type="password"]:not([class*="ant-"]):hover,
-.midnightTheme input[type="password"]:not([class*="ant-"]):focus,
-.midnightTheme input[type="password"]:not([class*="ant-"]):active,
-.midnightTheme input[type="password"]:not([class*="ant-"]):disabled,
-.midnightTheme input[type="email"]:not([class*="ant-"]):hover,
-.midnightTheme input[type="email"]:not([class*="ant-"]):focus,
-.midnightTheme input[type="email"]:not([class*="ant-"]):active,
-.midnightTheme input[type="email"]:not([class*="ant-"]):disabled,
-.midnightTheme input[type="number"]:not([class*="ant-"]):hover,
-.midnightTheme input[type="number"]:not([class*="ant-"]):focus,
-.midnightTheme input[type="number"]:not([class*="ant-"]):active,
-.midnightTheme input[type="number"]:not([class*="ant-"]):disabled,
-.midnightTheme input[type="search"]:not([class*="ant-"]):hover,
-.midnightTheme input[type="search"]:not([class*="ant-"]):focus,
-.midnightTheme input[type="search"]:not([class*="ant-"]):active,
-.midnightTheme input[type="search"]:not([class*="ant-"]):disabled,
-.midnightTheme textarea:not([class*="ant-"]):hover,
-.midnightTheme textarea:not([class*="ant-"]):focus,
-.midnightTheme textarea:not([class*="ant-"]):active,
-.midnightTheme textarea:not([class*="ant-"]):disabled,
-.midnightTheme input[role="combobox"]:not([class*="ant-"]):hover,
-.midnightTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.midnightTheme input[role="combobox"]:not([class*="ant-"]):active,
-.midnightTheme input[role="combobox"]:not([class*="ant-"]):disabled,
-.midnightTheme select[role="combobox"]:not([class*="ant-"]):hover,
-.midnightTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.midnightTheme select[role="combobox"]:not([class*="ant-"]):active,
-.midnightTheme select[role="combobox"]:not([class*="ant-"]):disabled,
-.midnightTheme .buy-sell-container .ant-input:hover,
-.midnightTheme .buy-sell-container .ant-input:focus,
-.midnightTheme .buy-sell-container .ant-input:active,
-.midnightTheme .buy-sell-container .ant-input:disabled {
-  background-color: #1b1c22;
-}
-
-.midnightTheme input[type="text"]:not([class*="ant-"]):focus,
-.midnightTheme input[type="password"]:not([class*="ant-"]):focus,
-.midnightTheme input[type="email"]:not([class*="ant-"]):focus,
-.midnightTheme input[type="number"]:not([class*="ant-"]):focus,
-.midnightTheme input[type="search"]:not([class*="ant-"]):focus,
-.midnightTheme textarea:not([class*="ant-"]):focus,
-.midnightTheme input[role="combobox"]:not([class*="ant-"]):focus,
-.midnightTheme select[role="combobox"]:not([class*="ant-"]):focus,
-.midnightTheme .buy-sell-container .ant-input:focus {
-  border-color: #aaa;
-}
-
 .midnightTheme input[type="range"] {
   /* These need to be independent selectors */
 }
 
+.midnightTheme input[type="text"]:not([class*="ant-"])::-moz-range-thumb,
+.midnightTheme input[type="password"]:not([class*="ant-"])::-moz-range-thumb,
+.midnightTheme input[type="email"]:not([class*="ant-"])::-moz-range-thumb,
+.midnightTheme input[type="number"]:not([class*="ant-"])::-moz-range-thumb,
+.midnightTheme input[type="search"]:not([class*="ant-"])::-moz-range-thumb,
+.midnightTheme textarea:not([class*="ant-"])::-moz-range-thumb,
+.midnightTheme input[role="combobox"]:not([class*="ant-"])::-moz-range-thumb,
+.midnightTheme select[role="combobox"]:not([class*="ant-"])::-moz-range-thumb,
 .midnightTheme input[type="range"]::-moz-range-thumb {
   background: #049cce;
   outline: none;
@@ -20953,6 +20891,14 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.midnightTheme input[type="text"]:not([class*="ant-"])::-webkit-slider-thumb,
+.midnightTheme input[type="password"]:not([class*="ant-"])::-webkit-slider-thumb,
+.midnightTheme input[type="email"]:not([class*="ant-"])::-webkit-slider-thumb,
+.midnightTheme input[type="number"]:not([class*="ant-"])::-webkit-slider-thumb,
+.midnightTheme input[type="search"]:not([class*="ant-"])::-webkit-slider-thumb,
+.midnightTheme textarea:not([class*="ant-"])::-webkit-slider-thumb,
+.midnightTheme input[role="combobox"]:not([class*="ant-"])::-webkit-slider-thumb,
+.midnightTheme select[role="combobox"]:not([class*="ant-"])::-webkit-slider-thumb,
 .midnightTheme input[type="range"]::-webkit-slider-thumb {
   background: #049cce;
   outline: none;
@@ -20960,6 +20906,14 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.midnightTheme input[type="text"]:not([class*="ant-"])::-ms-thumb,
+.midnightTheme input[type="password"]:not([class*="ant-"])::-ms-thumb,
+.midnightTheme input[type="email"]:not([class*="ant-"])::-ms-thumb,
+.midnightTheme input[type="number"]:not([class*="ant-"])::-ms-thumb,
+.midnightTheme input[type="search"]:not([class*="ant-"])::-ms-thumb,
+.midnightTheme textarea:not([class*="ant-"])::-ms-thumb,
+.midnightTheme input[role="combobox"]:not([class*="ant-"])::-ms-thumb,
+.midnightTheme select[role="combobox"]:not([class*="ant-"])::-ms-thumb,
 .midnightTheme input[type="range"]::-ms-thumb {
   background: #049cce;
   outline: none;
@@ -20967,16 +20921,40 @@ label.ant-checkbox-wrapper > span {
   border-radius: 3px;
 }
 
+.midnightTheme input[type="text"]:not([class*="ant-"])::-moz-range-track,
+.midnightTheme input[type="password"]:not([class*="ant-"])::-moz-range-track,
+.midnightTheme input[type="email"]:not([class*="ant-"])::-moz-range-track,
+.midnightTheme input[type="number"]:not([class*="ant-"])::-moz-range-track,
+.midnightTheme input[type="search"]:not([class*="ant-"])::-moz-range-track,
+.midnightTheme textarea:not([class*="ant-"])::-moz-range-track,
+.midnightTheme input[role="combobox"]:not([class*="ant-"])::-moz-range-track,
+.midnightTheme select[role="combobox"]:not([class*="ant-"])::-moz-range-track,
 .midnightTheme input[type="range"]::-moz-range-track {
   background-color: #1b1c22;
   border-radius: 3px;
 }
 
+.midnightTheme input[type="text"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.midnightTheme input[type="password"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.midnightTheme input[type="email"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.midnightTheme input[type="number"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.midnightTheme input[type="search"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.midnightTheme textarea:not([class*="ant-"])::-webkit-slider-runnable-track,
+.midnightTheme input[role="combobox"]:not([class*="ant-"])::-webkit-slider-runnable-track,
+.midnightTheme select[role="combobox"]:not([class*="ant-"])::-webkit-slider-runnable-track,
 .midnightTheme input[type="range"]::-webkit-slider-runnable-track {
   background-color: #1b1c22;
   border-radius: 3px;
 }
 
+.midnightTheme input[type="text"]:not([class*="ant-"])::-ms-track,
+.midnightTheme input[type="password"]:not([class*="ant-"])::-ms-track,
+.midnightTheme input[type="email"]:not([class*="ant-"])::-ms-track,
+.midnightTheme input[type="number"]:not([class*="ant-"])::-ms-track,
+.midnightTheme input[type="search"]:not([class*="ant-"])::-ms-track,
+.midnightTheme textarea:not([class*="ant-"])::-ms-track,
+.midnightTheme input[role="combobox"]:not([class*="ant-"])::-ms-track,
+.midnightTheme select[role="combobox"]:not([class*="ant-"])::-ms-track,
 .midnightTheme input[type="range"]::-ms-track {
   background-color: #1b1c22;
   border-radius: 3px;
