@@ -16329,6 +16329,10 @@ label.ant-checkbox-wrapper > span {
   fill: #e3745b;
 }
 
+.darkTheme .footer div.footer-status > span.testnet {
+  font-size: 0.85rem;
+}
+
 .darkTheme .footer div.footer-status > span.success {
   color: #7bd500;
 }
@@ -19214,6 +19218,10 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .api-status .high > svg > path {
   fill: #ea340b;
+}
+
+.lightTheme .footer div.footer-status > span.testnet {
+  font-size: 0.85rem;
 }
 
 .lightTheme .footer div.footer-status > span.success {
@@ -22105,6 +22113,10 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .api-status .high > svg > path {
   fill: #e3745b;
+}
+
+.midnightTheme .footer div.footer-status > span.testnet {
+  font-size: 0.85rem;
 }
 
 .midnightTheme .footer div.footer-status > span.success {
