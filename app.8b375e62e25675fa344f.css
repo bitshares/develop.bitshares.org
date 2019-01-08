@@ -16565,6 +16565,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .expiration-datetime-picker > div {
   float: left;
+  min-width: 145px;
 }
 
 .darkTheme .expiration-datetime-picker input {
@@ -19456,6 +19457,7 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .expiration-datetime-picker > div {
   float: left;
+  min-width: 145px;
 }
 
 .lightTheme .expiration-datetime-picker input {
@@ -22351,6 +22353,7 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .expiration-datetime-picker > div {
   float: left;
+  min-width: 145px;
 }
 
 .midnightTheme .expiration-datetime-picker input {
