@@ -14180,7 +14180,7 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .showcases-grid--wrapper--item {
   color: #cccccc;
   padding: 1rem;
-  min-width: 350px;
+  min-width: 380px;
   width: 33.3%;
   height: 320px;
 }
@@ -17072,7 +17072,7 @@ label.ant-checkbox-wrapper > span {
 .lightTheme .showcases-grid--wrapper--item {
   color: #5c5c5c;
   padding: 1rem;
-  min-width: 350px;
+  min-width: 380px;
   width: 33.3%;
   height: 320px;
 }
@@ -19968,7 +19968,7 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme .showcases-grid--wrapper--item {
   color: #adadad;
   padding: 1rem;
-  min-width: 350px;
+  min-width: 380px;
   width: 33.3%;
   height: 320px;
 }
