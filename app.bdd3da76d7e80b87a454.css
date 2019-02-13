@@ -14247,6 +14247,10 @@ label.ant-checkbox-wrapper > span {
   line-height: 1.5rem;
 }
 
+.darkTheme .exchange--chart-control {
+  background: #3f3f3f;
+}
+
 @media (max-width: 1150px) {
   .darkTheme .showcases-grid--wrapper {
     width: 900px;
@@ -17137,6 +17141,10 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .showcases-grid--wrapper--item--wrapper--content--description {
   line-height: 1.5rem;
+}
+
+.lightTheme .exchange--chart-control {
+  background: #e5e6e4;
 }
 
 @media (max-width: 1150px) {
@@ -20033,6 +20041,10 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .showcases-grid--wrapper--item--wrapper--content--description {
   line-height: 1.5rem;
+}
+
+.midnightTheme .exchange--chart-control {
+  background: #2c2e37;
 }
 
 @media (max-width: 1150px) {
