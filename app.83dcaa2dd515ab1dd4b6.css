@@ -8817,6 +8817,14 @@ b {
   fill: #7bd500 !important;
 }
 
+.red {
+  color: #E6001F !important;
+}
+
+.red .icon > svg > path {
+  fill: #E6001F !important;
+}
+
 .account-left-panel > div.grid-block {
   border-right: 1px solid rgba(128, 128, 128, 0.45);
 }
