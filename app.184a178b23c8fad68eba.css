@@ -8818,11 +8818,11 @@ b {
 }
 
 .red {
-  color: #E6001F !important;
+  color: #e6001f !important;
 }
 
 .red .icon > svg > path {
-  fill: #E6001F !important;
+  fill: #e6001f !important;
 }
 
 .account-left-panel > div.grid-block {
@@ -11218,6 +11218,30 @@ body .add-memo-btn.add-memo-btn {
   left: -25px;
 }
 
+.input-addon-before {
+  position: absolute;
+  height: 100%;
+  border: 1px solid #adadad;
+  padding: 0 15px;
+  border-radius: 6px;
+  left: 0;
+  display: flex !important;
+  align-items: center;
+}
+
+.date-picker-width100 input.ant-input {
+  height: 2.4rem;
+  background-color: #2d2d2d;
+  border: 0;
+  color: #e0e0e0;
+  border-radius: 6px;
+}
+
+.date-picker-width100 input.ant-input:focus {
+  border: none !important;
+  box-shadow: none;
+}
+
 .header.menu-group {
   justify-content: flex-start;
 }
@@ -13533,6 +13557,26 @@ div.registration .generated-password-section {
   .barter-balance-warning {
     margin-left: 0;
     margin-top: 30px;
+  }
+}
+
+.direct-debit-table {
+  overflow-x: auto;
+}
+
+.direct-debit-table table {
+  min-width: 1100px;
+}
+
+@media (max-width: 750px) {
+  .direct-debit-view .direct-debit-table-card .ant-card-body {
+    padding: 24px 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .direct-debit-view .direct-debit-table__filter-input {
+    margin-bottom: 15px;
   }
 }
 
