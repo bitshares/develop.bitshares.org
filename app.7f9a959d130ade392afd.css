@@ -9933,6 +9933,42 @@ form.order-form {
   padding: 10px;
 }
 
+form.order-form .ant-form-item {
+  margin-bottom: 0;
+}
+
+form.order-form .ant-input {
+  text-align: right;
+}
+
+form.order-form .ant-form-item-label {
+  text-align: left;
+  font-family: Roboto Medium, Monospaced Number, Chinese Quote, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+form.order-form .ant-form-item-label label {
+  font-size: 90% !important;
+}
+
+form.order-form .ant-input-group-addon {
+  text-align: left;
+  width: 60% !important;
+}
+
+.exchange--buy-sell-form .ant-tabs-extra-content {
+  float: left !important;
+  padding: 0 15px;
+  margin-right: 12px;
+}
+
+.buy-form > div.ant-tabs-bar {
+  border-bottom: 1px solid #258a14 !important;
+}
+
+.sell-form > div.ant-tabs-bar {
+  border-bottom: 1px solid #ea340b !important;
+}
+
 #market-charts > div.Stockcharts__wrapper {
   overflow: hidden;
 }
@@ -10320,7 +10356,6 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 10px 5px 12px 10px;
   overflow: hidden;
 }
 
@@ -15774,15 +15809,10 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .exchange-content-header {
   color: #fff;
-  border-bottom: 1px solid #049cce;
 }
 
-.darkTheme .exchange-content-header.bid {
-  border-bottom: 1px solid #6ba583;
-}
-
-.darkTheme .exchange-content-header.ask {
-  border-bottom: 1px solid #e3745b;
+.darkTheme .exchange-content-header--buy-sell-form {
+  border-bottom: 0 !important;
 }
 
 .darkTheme .orderHistoryBid > span.price-integer,
@@ -16621,6 +16651,10 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .calendarContainer .heading > button.next {
   float: right;
   transform: rotate(-180deg);
+}
+
+.darkTheme .expiration-datetime-picker.scaled-orders > div {
+  margin-top: -5px;
 }
 
 .darkTheme .expiration-datetime-picker > div {
@@ -18670,15 +18704,10 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .exchange-content-header {
   color: #3d3d3d;
-  border-bottom: 1px solid #2196f3;
 }
 
-.lightTheme .exchange-content-header.bid {
-  border-bottom: 1px solid #258a14;
-}
-
-.lightTheme .exchange-content-header.ask {
-  border-bottom: 1px solid #ea340b;
+.lightTheme .exchange-content-header--buy-sell-form {
+  border-bottom: 0 !important;
 }
 
 .lightTheme .orderHistoryBid > span.price-integer,
@@ -19517,6 +19546,10 @@ label.ant-checkbox-wrapper > span {
 .lightTheme .calendarContainer .heading > button.next {
   float: right;
   transform: rotate(-180deg);
+}
+
+.lightTheme .expiration-datetime-picker.scaled-orders > div {
+  margin-top: -5px;
 }
 
 .lightTheme .expiration-datetime-picker > div {
@@ -21570,15 +21603,10 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .exchange-content-header {
   color: #fff;
-  border-bottom: 1px solid #049cce;
 }
 
-.midnightTheme .exchange-content-header.bid {
-  border-bottom: 1px solid #50d2c2;
-}
-
-.midnightTheme .exchange-content-header.ask {
-  border-bottom: 1px solid #e3745b;
+.midnightTheme .exchange-content-header--buy-sell-form {
+  border-bottom: 0 !important;
 }
 
 .midnightTheme .orderHistoryBid > span.price-integer,
@@ -22417,6 +22445,10 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme .calendarContainer .heading > button.next {
   float: right;
   transform: rotate(-180deg);
+}
+
+.midnightTheme .expiration-datetime-picker.scaled-orders > div {
+  margin-top: -5px;
 }
 
 .midnightTheme .expiration-datetime-picker > div {
