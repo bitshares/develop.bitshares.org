@@ -9330,6 +9330,12 @@ div.tabs-container .action-buttons button {
   color: #f04124;
 }
 
+.recent-transactions .iconLinkAndLabel span {
+  font-weight: bold;
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+}
+
 div.divider {
   margin: 20px 0;
   border-bottom: 1px solid rgba(128, 128, 128, 0.45);
