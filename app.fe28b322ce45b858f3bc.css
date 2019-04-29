@@ -14470,7 +14470,11 @@ label.ant-checkbox-wrapper > span {
   color: #adadad;
 }
 
-.darkTheme .settings-input, .darkTheme .block-list li.with-dropdown > input.settings-input[type="text"], .lightTheme .block-list .darkTheme li.with-dropdown > input.settings-input[type="text"], .midnightTheme .block-list .darkTheme li.with-dropdown > input.settings-input[type="text"] {
+.darkTheme .settings--select {
+  width: 100%;
+}
+
+.darkTheme .settings-input, .darkTheme .block-list li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]), .lightTheme .block-list .darkTheme li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]), .midnightTheme .block-list .darkTheme li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]) {
   /* !important to overwrite styles for Inputs on User Settings. By default inputs take styles from
     .block-list and it uses on many places. To keep everything OK and do not break something I just do
     overwrite for Inputs on settings and keep default styles for inputs on another places. */
@@ -15169,6 +15173,11 @@ label.ant-checkbox-wrapper > span {
   border-bottom: 0;
 }
 
+.darkTheme .block-list li.with-dropdown > input.settings--input[type="text"] {
+  max-width: 100%;
+  width: 100%;
+}
+
 .darkTheme .right-label,
 .darkTheme .left-label {
   color: #adadad;
@@ -15786,14 +15795,14 @@ label.ant-checkbox-wrapper > span {
   border-bottom-color: #adadad !important;
 }
 
-.darkTheme section.block-list input[type="text"],
+.darkTheme section.block-list input[type="text"]:not([class*="ant-"]),
 .darkTheme section.block-list input[type="password"] {
   border-bottom: 1px solid #3f3f3f;
   background-color: transparent;
   color: #e0e0e0;
 }
 
-.darkTheme section.block-list input[type="text"]:hover, .darkTheme section.block-list input[type="text"]:active, .darkTheme section.block-list input[type="text"]:focus,
+.darkTheme section.block-list input[type="text"]:not([class*="ant-"]):hover, .darkTheme section.block-list input[type="text"]:not([class*="ant-"]):active, .darkTheme section.block-list input[type="text"]:not([class*="ant-"]):focus,
 .darkTheme section.block-list input[type="password"]:hover,
 .darkTheme section.block-list input[type="password"]:active,
 .darkTheme section.block-list input[type="password"]:focus {
@@ -16160,6 +16169,10 @@ label.ant-checkbox-wrapper > span {
   border-top: 1px solid #343434;
 }
 
+.darkTheme div.ant-row.ant-form-item.no-offset {
+  margin-bottom: 0;
+}
+
 .darkTheme .settings-menu > ul {
   width: 200px;
   transition: 0.3s;
@@ -16181,6 +16194,11 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .settings-menu > ul > li.active {
   color: #e0e0e0;
   background-color: #373737;
+}
+
+.darkTheme .unstyled-list {
+  list-style: none;
+  margin-left: 0;
 }
 
 .darkTheme .settings--notifications .settings--notifications--group .settings--notifications--item label {
@@ -17365,7 +17383,11 @@ label.ant-checkbox-wrapper > span {
   color: #656565;
 }
 
-.lightTheme .settings-input, .darkTheme .block-list .lightTheme li.with-dropdown > input.settings-input[type="text"], .lightTheme .block-list li.with-dropdown > input.settings-input[type="text"], .midnightTheme .block-list .lightTheme li.with-dropdown > input.settings-input[type="text"] {
+.lightTheme .settings--select {
+  width: 100%;
+}
+
+.lightTheme .settings-input, .darkTheme .block-list .lightTheme li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]), .lightTheme .block-list li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]), .midnightTheme .block-list .lightTheme li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]) {
   /* !important to overwrite styles for Inputs on User Settings. By default inputs take styles from
     .block-list and it uses on many places. To keep everything OK and do not break something I just do
     overwrite for Inputs on settings and keep default styles for inputs on another places. */
@@ -18064,6 +18086,11 @@ label.ant-checkbox-wrapper > span {
   border-bottom: 0;
 }
 
+.lightTheme .block-list li.with-dropdown > input.settings--input[type="text"] {
+  max-width: 100%;
+  width: 100%;
+}
+
 .lightTheme .right-label,
 .lightTheme .left-label {
   color: #5c5c5c;
@@ -18681,14 +18708,14 @@ label.ant-checkbox-wrapper > span {
   border-bottom-color: #5c5c5c !important;
 }
 
-.lightTheme section.block-list input[type="text"],
+.lightTheme section.block-list input[type="text"]:not([class*="ant-"]),
 .lightTheme section.block-list input[type="password"] {
   border-bottom: 1px solid #e5e6e4;
   background-color: transparent;
   color: #242424;
 }
 
-.lightTheme section.block-list input[type="text"]:hover, .lightTheme section.block-list input[type="text"]:active, .lightTheme section.block-list input[type="text"]:focus,
+.lightTheme section.block-list input[type="text"]:not([class*="ant-"]):hover, .lightTheme section.block-list input[type="text"]:not([class*="ant-"]):active, .lightTheme section.block-list input[type="text"]:not([class*="ant-"]):focus,
 .lightTheme section.block-list input[type="password"]:hover,
 .lightTheme section.block-list input[type="password"]:active,
 .lightTheme section.block-list input[type="password"]:focus {
@@ -19055,6 +19082,10 @@ label.ant-checkbox-wrapper > span {
   border-top: 1px solid white;
 }
 
+.lightTheme div.ant-row.ant-form-item.no-offset {
+  margin-bottom: 0;
+}
+
 .lightTheme .settings-menu > ul {
   width: 200px;
   transition: 0.3s;
@@ -19076,6 +19107,11 @@ label.ant-checkbox-wrapper > span {
 .lightTheme .settings-menu > ul > li.active {
   color: #242424;
   background-color: #e6e6e6;
+}
+
+.lightTheme .unstyled-list {
+  list-style: none;
+  margin-left: 0;
 }
 
 .lightTheme .settings--notifications .settings--notifications--group .settings--notifications--item label {
@@ -20264,7 +20300,11 @@ label.ant-checkbox-wrapper > span {
   color: #737373;
 }
 
-.midnightTheme .settings-input, .darkTheme .block-list .midnightTheme li.with-dropdown > input.settings-input[type="text"], .lightTheme .block-list .midnightTheme li.with-dropdown > input.settings-input[type="text"], .midnightTheme .block-list li.with-dropdown > input.settings-input[type="text"] {
+.midnightTheme .settings--select {
+  width: 100%;
+}
+
+.midnightTheme .settings-input, .darkTheme .block-list .midnightTheme li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]), .lightTheme .block-list .midnightTheme li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]), .midnightTheme .block-list li.with-dropdown > input.settings-input[type="text"]:not([class*="ant-"]) {
   /* !important to overwrite styles for Inputs on User Settings. By default inputs take styles from
     .block-list and it uses on many places. To keep everything OK and do not break something I just do
     overwrite for Inputs on settings and keep default styles for inputs on another places. */
@@ -20963,6 +21003,11 @@ label.ant-checkbox-wrapper > span {
   border-bottom: 0;
 }
 
+.midnightTheme .block-list li.with-dropdown > input.settings--input[type="text"] {
+  max-width: 100%;
+  width: 100%;
+}
+
 .midnightTheme .right-label,
 .midnightTheme .left-label {
   color: #adadad;
@@ -21580,14 +21625,14 @@ label.ant-checkbox-wrapper > span {
   border-bottom-color: #adadad !important;
 }
 
-.midnightTheme section.block-list input[type="text"],
+.midnightTheme section.block-list input[type="text"]:not([class*="ant-"]),
 .midnightTheme section.block-list input[type="password"] {
   border-bottom: 1px solid #2c2e37;
   background-color: transparent;
   color: #e0e0e0;
 }
 
-.midnightTheme section.block-list input[type="text"]:hover, .midnightTheme section.block-list input[type="text"]:active, .midnightTheme section.block-list input[type="text"]:focus,
+.midnightTheme section.block-list input[type="text"]:not([class*="ant-"]):hover, .midnightTheme section.block-list input[type="text"]:not([class*="ant-"]):active, .midnightTheme section.block-list input[type="text"]:not([class*="ant-"]):focus,
 .midnightTheme section.block-list input[type="password"]:hover,
 .midnightTheme section.block-list input[type="password"]:active,
 .midnightTheme section.block-list input[type="password"]:focus {
@@ -21954,6 +21999,10 @@ label.ant-checkbox-wrapper > span {
   border-top: 1px solid #22232a;
 }
 
+.midnightTheme div.ant-row.ant-form-item.no-offset {
+  margin-bottom: 0;
+}
+
 .midnightTheme .settings-menu > ul {
   width: 200px;
   transition: 0.3s;
@@ -21975,6 +22024,11 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme .settings-menu > ul > li.active {
   color: #e0e0e0;
   background-color: #2a2b34;
+}
+
+.midnightTheme .unstyled-list {
+  list-style: none;
+  margin-left: 0;
 }
 
 .midnightTheme .settings--notifications .settings--notifications--group .settings--notifications--item label {
