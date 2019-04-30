@@ -7285,7 +7285,7 @@ blockquote cite {
 }
 
 blockquote cite:before {
-  content: "\2014    ";
+  content: "\2014 \0020";
 }
 
 blockquote cite a,
@@ -23564,7 +23564,7 @@ span.icon-10x {
 }
 
 .json-inspector__show-original:before {
-  content: '\2942';
+  content: '⥂';
 }
 
 .json-inspector__show-original:hover:after {
