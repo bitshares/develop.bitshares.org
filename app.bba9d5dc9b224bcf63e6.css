@@ -10379,7 +10379,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .exchange-padded {
-  padding-right: 5px !important;
+  padding-right: 15px !important;
 }
 
 .mymarkets-base-select {
@@ -13683,14 +13683,15 @@ div.bordered-header {
 
 .exchange-bordered {
   border: 1px solid rgba(183, 183, 183, 0.29);
+  margin: 0;
 }
 
-div:first-child .exchange-bordered {
-  margin: 0 10px 0 10px;
+.exchange-bordered#depth_chart {
+  padding: 5px 12px 0px 12px;
 }
 
-div:last-child .exchange-bordered {
-  margin: 0 10px 0 10px;
+.exchange-bordered#tv_chart {
+  padding-right: 12px;
 }
 
 .block-content-header {
