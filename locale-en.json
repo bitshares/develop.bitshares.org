@@ -62,6 +62,7 @@
         "member": {
             "annual": "Annual subscriber",
             "available": "Available to claim",
+            "balance_type": "Type",
             "basic": "Basic member",
             "cashback": "Vesting balance amount",
             "claim": "Claim now",
@@ -2010,6 +2011,7 @@
         "bond_create_offer": "Created bond offer",
         "bond_pay_collateral": "Paid collateral of",
         "borrow_amount": "Debt",
+        "cumulative_borrow_amount": "Cumulative Debt",
         "borrower": "Borrower",
         "broadcast_fail": "Failed to broadcast the transaction: %(message)s",
         "broadcast_success": "Transaction has been broadcast",
