@@ -16216,6 +16216,13 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .unstyled-list {
   list-style: none;
   margin-left: 0;
+  margin-bottom: 0;
+}
+
+.darkTheme .settings-container .ant-form-item-label label {
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .darkTheme .settings--notifications .settings--notifications--group .settings--notifications--item label {
@@ -19129,6 +19136,13 @@ label.ant-checkbox-wrapper > span {
 .lightTheme .unstyled-list {
   list-style: none;
   margin-left: 0;
+  margin-bottom: 0;
+}
+
+.lightTheme .settings-container .ant-form-item-label label {
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  color: rgba(0, 0, 0, 0.65) !important;
 }
 
 .lightTheme .settings--notifications .settings--notifications--group .settings--notifications--item label {
@@ -22046,6 +22060,13 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme .unstyled-list {
   list-style: none;
   margin-left: 0;
+  margin-bottom: 0;
+}
+
+.midnightTheme .settings-container .ant-form-item-label label {
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .midnightTheme .settings--notifications .settings--notifications--group .settings--notifications--item label {
