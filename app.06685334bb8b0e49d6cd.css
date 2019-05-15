@@ -14523,6 +14523,11 @@ label.ant-checkbox-wrapper > span {
   color: #1ec3fa;
 }
 
+.darkTheme .form-input-header .form-input-header--right {
+  float: right;
+  cursor: pointer;
+}
+
 .darkTheme .dark-text-color {
   color: #444;
 }
@@ -17441,6 +17446,11 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .amount-selector-field .amount-selector-field--balance:hover {
   color: #337ab7;
+}
+
+.lightTheme .form-input-header .form-input-header--right {
+  float: right;
+  cursor: pointer;
 }
 
 .lightTheme .dark-text-color {
@@ -20365,6 +20375,11 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .amount-selector-field .amount-selector-field--balance:hover {
   color: #049cce;
+}
+
+.midnightTheme .form-input-header .form-input-header--right {
+  float: right;
+  cursor: pointer;
 }
 
 .midnightTheme .dark-text-color {
