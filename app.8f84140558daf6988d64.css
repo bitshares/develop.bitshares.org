@@ -9993,6 +9993,12 @@ form.order-form .ant-input-group-addon {
   width: 60% !important;
 }
 
+form.order-form .expiration-datetime-picker--hidden {
+  display: flex;
+  visibility: hidden;
+  height: 0;
+}
+
 .exchange--buy-sell-form .ant-tabs-extra-content {
   float: left !important;
   padding: 0 15px;
