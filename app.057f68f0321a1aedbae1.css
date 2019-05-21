@@ -16598,6 +16598,10 @@ label.ant-checkbox-wrapper > span {
   color: #7ed321;
 }
 
+.darkTheme .ant-table-placeholder {
+  min-height: 130px;
+}
+
 .darkTheme div.account-creation {
   border: 1px solid #4b5158;
   border-radius: 6px;
@@ -17492,7 +17496,7 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .explore-witness--info {
   width: 100%;
-  border: 1px solid #a2a2a2;
+  border: 1px solid #dbdbdb;
   background: transparent;
   padding: 12px;
   border-radius: 5px;
@@ -17872,7 +17876,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .page-layout {
-  background-color: #bbbbbb;
+  background-color: #f4f4f4;
 }
 
 .lightTheme .page-layout .column-header > ul {
@@ -18496,7 +18500,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .tab-content {
-  background-color: #bbbbbb;
+  background-color: #f4f4f4;
 }
 
 .lightTheme .tab-content div.header-selector .filter input {
@@ -19442,7 +19446,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme ul.account-overview li > a:hover {
-  background-color: #bbbbbb;
+  background-color: #f4f4f4;
   color: #242424;
 }
 
@@ -19451,7 +19455,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme ul.account-overview li.is-active, .lightTheme ul.account-overview li:hover {
-  background-color: #bbbbbb;
+  background-color: #f4f4f4;
 }
 
 .lightTheme ul.account-overview li.is-active > a, .lightTheme ul.account-overview li:hover > a {
@@ -19471,7 +19475,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme table.table.dashboard-table > thead > tr > th {
-  background-color: #b1b1b1;
+  background-color: #eaeaea;
   color: #242424;
   border-color: rgba(50, 49, 49, 0.1);
 }
@@ -19480,7 +19484,7 @@ label.ant-checkbox-wrapper > span {
   height: 20px;
   text-align: left;
   padding-left: 45px;
-  background-color: #b1b1b1;
+  background-color: #eaeaea;
   color: #242424;
 }
 
@@ -19503,7 +19507,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme table.table.dashboard-table > tbody > tr.total-value td {
-  background-color: #b1b1b1;
+  background-color: #eaeaea;
 }
 
 .lightTheme table.table.dashboard-table > tbody > tr.total-value td:nth-child(n + 2) {
@@ -19525,6 +19529,10 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .ant-table-content .ant-table-footer .total-value .value {
   color: #488a00;
+}
+
+.lightTheme .ant-table-placeholder {
+  min-height: 130px;
 }
 
 .lightTheme div.account-creation {
@@ -22460,6 +22468,10 @@ label.ant-checkbox-wrapper > span {
   color: #7ed321;
 }
 
+.midnightTheme .ant-table-placeholder {
+  min-height: 130px;
+}
+
 .midnightTheme div.account-creation {
   border: 1px solid #27384b;
   border-radius: 6px;
@@ -23610,10 +23622,6 @@ span.icon-10x {
 
 .icon.rotate180 > svg {
   transform: rotate(180deg);
-}
-
-.paginated-list .ant-table-placeholder {
-  min-height: 130px;
 }
 
 .paginated-list .ant-table-body {
