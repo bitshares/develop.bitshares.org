@@ -13838,6 +13838,27 @@ div.bordered-header {
   display: inline-block;
 }
 
+.git-info {
+  text-align: center;
+  position: relative;
+}
+
+.git-info .ant-alert .ant-alert-icon {
+  position: static !important;
+  margin-right: 10px;
+}
+
+.git-info .close-icon {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 22px !important;
+  cursor: pointer;
+  color: black !important;
+}
+
 /*
  * Ant Design SCSS Overrides
  *
