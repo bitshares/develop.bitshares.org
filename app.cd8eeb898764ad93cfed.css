@@ -12728,6 +12728,10 @@ Midnight = #23313d
   padding-bottom: 1em;
 }
 
+.wallet-create div.ant-form-item-label, .create-account-wrapper div.ant-form-item-label {
+  text-align: left;
+}
+
 @media only screen and (min-width: 40em) {
   .left-menu {
     padding-top: 5em;
