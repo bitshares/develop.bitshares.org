@@ -16386,6 +16386,14 @@ label.ant-checkbox-wrapper > span {
   fill: #258a14;
 }
 
+.darkTheme .danger > svg > path {
+  fill: #ec001b !important;
+}
+
+.darkTheme .warning > svg > path {
+  fill: #fb8608 !important;
+}
+
 .darkTheme tr.margin-row > td.danger {
   background-color: #ec001b !important;
   color: #444;
@@ -19317,6 +19325,14 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme a.action-plus > .icon > svg > path {
   fill: #528c0a;
+}
+
+.lightTheme .danger > svg > path {
+  fill: #ce4323 !important;
+}
+
+.lightTheme .warning > svg > path {
+  fill: #ee1463 !important;
 }
 
 .lightTheme tr.margin-row > td.danger {
@@ -22254,6 +22270,14 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme a.action-plus > .icon > svg > path {
   fill: #6ec105;
+}
+
+.midnightTheme .danger > svg > path {
+  fill: #ce4323 !important;
+}
+
+.midnightTheme .warning > svg > path {
+  fill: #fb8608 !important;
 }
 
 .midnightTheme tr.margin-row > td.danger {
