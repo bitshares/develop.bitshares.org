@@ -12728,7 +12728,8 @@ Midnight = #23313d
   padding-bottom: 1em;
 }
 
-.wallet-create div.ant-form-item-label, .create-account-wrapper div.ant-form-item-label {
+.wallet-create div.ant-form-item-label,
+.create-account-wrapper div.ant-form-item-label {
   text-align: left;
 }
 
