@@ -14500,6 +14500,46 @@ label.ant-checkbox-wrapper > span {
   /* Table view account */
 }
 
+.darkTheme ul.header-menu {
+  background-color: #373737 !important;
+}
+
+.darkTheme ul.header-menu .divider {
+  margin: 0;
+}
+
+.darkTheme .menu-dropdown-wrapper.active {
+  background: #2a2a2a !important;
+}
+
+.darkTheme .menu-dropdown-wrapper.active ul.header-menu {
+  box-shadow: 0 4px 9px 0 #00000015;
+}
+
+.darkTheme .menu-dropdown-wrapper.active ul.header-menu li:hover {
+  background-color: #444444;
+}
+
+.darkTheme .selector > * {
+  border: 1px solid #373737 !important;
+  border-right: 0 !important;
+  color: #838383 !important;
+  line-height: 1.9rem;
+}
+
+.darkTheme .selector > *:last-child {
+  border-right: 1px solid #373737 !important;
+}
+
+.darkTheme .selector > *:not(.inactive) {
+  color: #337ab7 !important;
+  border: 1px solid #337ab7 !important;
+}
+
+.darkTheme .selector > *:not(.inactive) + * {
+  border-left: 0 !important;
+}
+
 .darkTheme .showcases-grid {
   margin: 32px 0;
   display: flex;
@@ -15627,7 +15667,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .tab-content {
-  background-color: #6f6f6f;
+  background-color: #2a2a2a;
 }
 
 .darkTheme .tab-content div.header-selector .filter input {
@@ -16567,21 +16607,30 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme div.account-tabs > div.service-selector {
   background-color: #2a2a2a;
+  border-bottom: 1px solid #373737;
+}
+
+.darkTheme ul.account-overview {
+  background-color: #2a2a2a;
 }
 
 .darkTheme ul.account-overview li {
   transition: all 0.3s ease 0s;
+  background-color: #2a2a2a;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid #2a2a2a;
 }
 
 .darkTheme ul.account-overview li > a {
-  color: #afafaf;
-  background-color: transparent;
+  background-color: #2a2a2a;
+  color: #fff;
   border: none;
   transition: all 0.3s ease 0s;
 }
 
 .darkTheme ul.account-overview li > a:hover {
-  background-color: #6f6f6f;
   color: white;
 }
 
@@ -16590,7 +16639,8 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme ul.account-overview li.is-active, .darkTheme ul.account-overview li:hover {
-  background-color: #6f6f6f;
+  border-bottom: 3px solid #337ab7;
+  background-color: #2a2a2a;
 }
 
 .darkTheme ul.account-overview li.is-active > a, .darkTheme ul.account-overview li:hover > a {
@@ -16810,7 +16860,37 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .header-container {
-  background-color: #3f3f3f;
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0 !important;
+  z-index: 1;
+}
+
+.darkTheme .header-container .menu-group .menu-bar li a {
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+
+.darkTheme .header-container .menu-group .menu-bar li a svg path {
+  fill: #fff !important;
+}
+
+.darkTheme .header-container .menu-group .menu-bar li a:hover {
+  background-color: #2a2a2a !important;
+  color: #fff;
+}
+
+.darkTheme .header-container .menu-group .menu-bar li a:hover svg path {
+  fill: #fff !important;
+}
+
+.darkTheme .header-container .menu-group .menu-bar li a.active {
+  background-color: #2a2a2a !important;
+  color: #fff;
+}
+
+.darkTheme .header-container .menu-group .menu-bar li a.active svg path {
+  fill: #fff !important;
 }
 
 .darkTheme .header-container .menu-dropdown-wrapper.active {
@@ -17439,6 +17519,46 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme {
   /* Table view account */
+}
+
+.lightTheme ul.header-menu {
+  background-color: #fff !important;
+}
+
+.lightTheme ul.header-menu .divider {
+  margin: 0;
+}
+
+.lightTheme .menu-dropdown-wrapper.active {
+  background: #fff !important;
+}
+
+.lightTheme .menu-dropdown-wrapper.active ul.header-menu {
+  box-shadow: 0 4px 9px 0 #00000015;
+}
+
+.lightTheme .menu-dropdown-wrapper.active ul.header-menu li:hover {
+  background-color: #c7ddef;
+}
+
+.lightTheme .selector > * {
+  border: 1px solid rgba(230, 230, 230, 0.6) !important;
+  border-right: 0 !important;
+  color: rgba(77, 77, 77, 0.6) !important;
+  line-height: 1.9rem;
+}
+
+.lightTheme .selector > *:last-child {
+  border-right: 1px solid rgba(230, 230, 230, 0.6) !important;
+}
+
+.lightTheme .selector > *:not(.inactive) {
+  color: #337ab7 !important;
+  border: 1px solid #337ab7 !important;
+}
+
+.lightTheme .selector > *:not(.inactive) + * {
+  border-left: 0 !important;
 }
 
 .lightTheme .showcases-grid {
@@ -18568,7 +18688,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .tab-content {
-  background-color: #f4f4f4;
+  background-color: #fff;
 }
 
 .lightTheme .tab-content div.header-selector .filter input {
@@ -19508,21 +19628,30 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme div.account-tabs > div.service-selector {
   background-color: #fff;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.6);
+}
+
+.lightTheme ul.account-overview {
+  background-color: #fff;
 }
 
 .lightTheme ul.account-overview li {
   transition: all 0.3s ease 0s;
+  background-color: #fff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid #fff;
 }
 
 .lightTheme ul.account-overview li > a {
-  color: #5d5d5d;
-  background-color: transparent;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.6);
   border: none;
   transition: all 0.3s ease 0s;
 }
 
 .lightTheme ul.account-overview li > a:hover {
-  background-color: #f4f4f4;
   color: #242424;
 }
 
@@ -19531,7 +19660,8 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme ul.account-overview li.is-active, .lightTheme ul.account-overview li:hover {
-  background-color: #f4f4f4;
+  border-bottom: 3px solid #337ab7;
+  background-color: #fff;
 }
 
 .lightTheme ul.account-overview li.is-active > a, .lightTheme ul.account-overview li:hover > a {
@@ -19751,7 +19881,37 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .header-container {
-  background-color: #e5e6e4;
+  background-color: #fff;
+  box-shadow: 0 4px 9px 0 #00000015 !important;
+  z-index: 1;
+}
+
+.lightTheme .header-container .menu-group .menu-bar li a {
+  text-decoration: none;
+  background: #fff;
+  color: rgba(51, 51, 51, 0.6);
+}
+
+.lightTheme .header-container .menu-group .menu-bar li a svg path {
+  fill: rgba(51, 51, 51, 0.6) !important;
+}
+
+.lightTheme .header-container .menu-group .menu-bar li a:hover {
+  background-color: #fff !important;
+  color: #337ab7;
+}
+
+.lightTheme .header-container .menu-group .menu-bar li a:hover svg path {
+  fill: #337ab7 !important;
+}
+
+.lightTheme .header-container .menu-group .menu-bar li a.active {
+  background-color: #fff !important;
+  color: #337ab7;
+}
+
+.lightTheme .header-container .menu-group .menu-bar li a.active svg path {
+  fill: #337ab7 !important;
 }
 
 .lightTheme .header-container .menu-dropdown-wrapper.active {
@@ -20200,6 +20360,15 @@ label.ant-checkbox-wrapper > span {
   font-weight: bold;
 }
 
+.lightTheme thead[class*="ant-table-thead"] th {
+  background-color: #2196f3bb !important;
+}
+
+.lightTheme div[class*="ant-table-footer"] {
+  background-color: #2196f3bb !important;
+  color: white;
+}
+
 .ant-form-item .ant-form-item-label label {
   text-transform: none;
   font-family: Roboto, sans-serif;
@@ -20384,6 +20553,46 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme {
   /* Table view account */
+}
+
+.midnightTheme ul.header-menu {
+  background-color: #24262d !important;
+}
+
+.midnightTheme ul.header-menu .divider {
+  margin: 0;
+}
+
+.midnightTheme .menu-dropdown-wrapper.active {
+  background: #191a1f !important;
+}
+
+.midnightTheme .menu-dropdown-wrapper.active ul.header-menu {
+  box-shadow: 0 4px 9px 0 #00000015;
+}
+
+.midnightTheme .menu-dropdown-wrapper.active ul.header-menu li:hover {
+  background-color: #30323b;
+}
+
+.midnightTheme .selector > * {
+  border: 1px solid #24262d !important;
+  border-right: 0 !important;
+  color: #696d82 !important;
+  line-height: 1.9rem;
+}
+
+.midnightTheme .selector > *:last-child {
+  border-right: 1px solid #24262d !important;
+}
+
+.midnightTheme .selector > *:not(.inactive) {
+  color: #337ab7 !important;
+  border: 1px solid #337ab7 !important;
+}
+
+.midnightTheme .selector > *:not(.inactive) + * {
+  border-left: 0 !important;
 }
 
 .midnightTheme .showcases-grid {
@@ -21513,7 +21722,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .midnightTheme .tab-content {
-  background-color: #212e3c;
+  background-color: #191a1f;
 }
 
 .midnightTheme .tab-content div.header-selector .filter input {
@@ -22453,21 +22662,30 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme div.account-tabs > div.service-selector {
   background-color: #191a1f;
+  border-bottom: 1px solid #24262d;
+}
+
+.midnightTheme ul.account-overview {
+  background-color: #191a1f;
 }
 
 .midnightTheme ul.account-overview li {
   transition: all 0.3s ease 0s;
+  background-color: #191a1f;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 3px solid #191a1f;
 }
 
 .midnightTheme ul.account-overview li > a {
-  color: #606060;
-  background-color: transparent;
+  background-color: #191a1f;
+  color: #fff;
   border: none;
   transition: all 0.3s ease 0s;
 }
 
 .midnightTheme ul.account-overview li > a:hover {
-  background-color: #212e3c;
   color: white;
 }
 
@@ -22476,7 +22694,8 @@ label.ant-checkbox-wrapper > span {
 }
 
 .midnightTheme ul.account-overview li.is-active, .midnightTheme ul.account-overview li:hover {
-  background-color: #212e3c;
+  border-bottom: 3px solid #337ab7;
+  background-color: #191a1f;
 }
 
 .midnightTheme ul.account-overview li.is-active > a, .midnightTheme ul.account-overview li:hover > a {
@@ -22696,7 +22915,37 @@ label.ant-checkbox-wrapper > span {
 }
 
 .midnightTheme .header-container {
-  background-color: black;
+  background-color: #30323b;
+  box-shadow: 0 2px 9px 0 #30323b !important;
+  z-index: 1;
+}
+
+.midnightTheme .header-container .menu-group .menu-bar li a {
+  text-decoration: none;
+  background: #30323b;
+  color: #e6e6e6;
+}
+
+.midnightTheme .header-container .menu-group .menu-bar li a svg path {
+  fill: #e6e6e6 !important;
+}
+
+.midnightTheme .header-container .menu-group .menu-bar li a:hover {
+  background-color: #30323b !important;
+  color: #049cce;
+}
+
+.midnightTheme .header-container .menu-group .menu-bar li a:hover svg path {
+  fill: #049cce !important;
+}
+
+.midnightTheme .header-container .menu-group .menu-bar li a.active {
+  background-color: #30323b !important;
+  color: #049cce;
+}
+
+.midnightTheme .header-container .menu-group .menu-bar li a.active svg path {
+  fill: #049cce !important;
 }
 
 .midnightTheme .header-container .menu-dropdown-wrapper.active {
