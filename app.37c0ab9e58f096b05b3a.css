@@ -16718,6 +16718,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .ant-table-placeholder {
   min-height: 130px;
+  z-index: 0;
 }
 
 .darkTheme div.account-creation {
@@ -19739,6 +19740,7 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .ant-table-placeholder {
   min-height: 130px;
+  z-index: 0;
 }
 
 .lightTheme div.account-creation {
@@ -22773,6 +22775,7 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .ant-table-placeholder {
   min-height: 130px;
+  z-index: 0;
 }
 
 .midnightTheme div.account-creation {
