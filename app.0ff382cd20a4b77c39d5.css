@@ -9874,6 +9874,10 @@ div#CenterContent {
   border-top: none;
 }
 
+.ant-collapse-header {
+  padding-left: 40px !important;
+}
+
 .top-bar {
   border-bottom: 1px solid grey;
 }
