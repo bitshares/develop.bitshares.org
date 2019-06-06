@@ -16718,7 +16718,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .ant-table-placeholder {
   min-height: 130px;
-  z-index: 0;
+  z-index: 0 !important;
 }
 
 .darkTheme div.account-creation {
@@ -19740,7 +19740,7 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .ant-table-placeholder {
   min-height: 130px;
-  z-index: 0;
+  z-index: 0 !important;
 }
 
 .lightTheme div.account-creation {
@@ -22775,7 +22775,7 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .ant-table-placeholder {
   min-height: 130px;
-  z-index: 0;
+  z-index: 0 !important;
 }
 
 .midnightTheme div.account-creation {
