@@ -14524,23 +14524,23 @@ label.ant-checkbox-wrapper > span {
   background-color: #444444;
 }
 
-.darkTheme .selector > * {
+.darkTheme .selector > .inline-block {
   border: 1px solid #373737 !important;
   border-right: 0 !important;
   color: #838383 !important;
   line-height: 1.9rem;
 }
 
-.darkTheme .selector > *:last-child {
+.darkTheme .selector > .inline-block:last-child {
   border-right: 1px solid #373737 !important;
 }
 
-.darkTheme .selector > *:not(.inactive) {
+.darkTheme .selector > *:not(.inactive).inline-block {
   color: #337ab7 !important;
   border: 1px solid #337ab7 !important;
 }
 
-.darkTheme .selector > *:not(.inactive) + * {
+.darkTheme .selector > *:not(.inactive).inline-block + * {
   border-left: 0 !important;
 }
 
@@ -17546,23 +17546,23 @@ label.ant-checkbox-wrapper > span {
   background-color: #c7ddef;
 }
 
-.lightTheme .selector > * {
+.lightTheme .selector > .inline-block {
   border: 1px solid rgba(230, 230, 230, 0.6) !important;
   border-right: 0 !important;
   color: rgba(77, 77, 77, 0.6) !important;
   line-height: 1.9rem;
 }
 
-.lightTheme .selector > *:last-child {
+.lightTheme .selector > .inline-block:last-child {
   border-right: 1px solid rgba(230, 230, 230, 0.6) !important;
 }
 
-.lightTheme .selector > *:not(.inactive) {
+.lightTheme .selector > *:not(.inactive).inline-block {
   color: #337ab7 !important;
   border: 1px solid #337ab7 !important;
 }
 
-.lightTheme .selector > *:not(.inactive) + * {
+.lightTheme .selector > *:not(.inactive).inline-block + * {
   border-left: 0 !important;
 }
 
@@ -20581,23 +20581,23 @@ label.ant-checkbox-wrapper > span {
   background-color: #30323b;
 }
 
-.midnightTheme .selector > * {
+.midnightTheme .selector > .inline-block {
   border: 1px solid #24262d !important;
   border-right: 0 !important;
   color: #696d82 !important;
   line-height: 1.9rem;
 }
 
-.midnightTheme .selector > *:last-child {
+.midnightTheme .selector > .inline-block:last-child {
   border-right: 1px solid #24262d !important;
 }
 
-.midnightTheme .selector > *:not(.inactive) {
+.midnightTheme .selector > *:not(.inactive).inline-block {
   color: #337ab7 !important;
   border: 1px solid #337ab7 !important;
 }
 
-.midnightTheme .selector > *:not(.inactive) + * {
+.midnightTheme .selector > *:not(.inactive).inline-block + * {
   border-left: 0 !important;
 }
 
