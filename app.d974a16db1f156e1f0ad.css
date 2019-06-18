@@ -16465,12 +16465,26 @@ label.ant-checkbox-wrapper > span {
   fill: #258a14;
 }
 
-.darkTheme .danger > svg > path {
-  fill: #ec001b !important;
+.darkTheme .margin-row > td:last-of-type {
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
-.darkTheme .warning > svg > path {
-  fill: #fb8608 !important;
+.darkTheme .margin-ratio {
+  padding: 6px;
+  font-family: "Roboto-Medium", arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.darkTheme .margin-ratio.danger {
+  background-color: #ec001b !important;
+  color: #1e1e1e;
+}
+
+.darkTheme .margin-ratio.warning {
+  background-color: #fb8608 !important;
+  color: #1e1e1e;
 }
 
 .darkTheme tr.margin-row > td.danger {
@@ -19487,12 +19501,26 @@ label.ant-checkbox-wrapper > span {
   fill: #528c0a;
 }
 
-.lightTheme .danger > svg > path {
-  fill: #ce4323 !important;
+.lightTheme .margin-row > td:last-of-type {
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
-.lightTheme .warning > svg > path {
-  fill: #ee1463 !important;
+.lightTheme .margin-ratio {
+  padding: 6px;
+  font-family: "Roboto-Medium", arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.lightTheme .margin-ratio.danger {
+  background-color: #ce4323 !important;
+  color: #353535;
+}
+
+.lightTheme .margin-ratio.warning {
+  background-color: #ee1463 !important;
+  color: #353535;
 }
 
 .lightTheme tr.margin-row > td.danger {
@@ -22522,12 +22550,26 @@ label.ant-checkbox-wrapper > span {
   fill: #6ec105;
 }
 
-.midnightTheme .danger > svg > path {
-  fill: #ce4323 !important;
+.midnightTheme .margin-row > td:last-of-type {
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
-.midnightTheme .warning > svg > path {
-  fill: #fb8608 !important;
+.midnightTheme .margin-ratio {
+  padding: 6px;
+  font-family: "Roboto-Medium", arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.midnightTheme .margin-ratio.danger {
+  background-color: #ce4323 !important;
+  color: #1e1e1e;
+}
+
+.midnightTheme .margin-ratio.warning {
+  background-color: #fb8608 !important;
+  color: #1e1e1e;
 }
 
 .midnightTheme tr.margin-row > td.danger {
