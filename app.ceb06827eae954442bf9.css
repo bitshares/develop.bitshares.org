@@ -13902,6 +13902,19 @@ div.bordered-header {
   color: black !important;
 }
 
+.search-input .ant-input-suffix {
+  right: 0px !important;
+}
+
+.search-input .ant-input-suffix .anticon {
+  width: 32px;
+  height: 32px;
+}
+
+.search-input .ant-input-suffix .anticon svg {
+  margin: 9px;
+}
+
 /*
  * Ant Design SCSS Overrides
  *
