@@ -16749,7 +16749,7 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .ant-table-placeholder {
   min-height: 130px;
-  z-index: 0 !important;
+  z-index: 0;
 }
 
 .darkTheme div.account-creation {
@@ -16894,7 +16894,7 @@ label.ant-checkbox-wrapper > span {
 .darkTheme .header-container {
   background-color: rgba(0, 0, 0, 0.6);
   box-shadow: 0 !important;
-  z-index: 1;
+  z-index: 1010;
 }
 
 .darkTheme .header-container .menu-group .menu-bar li a {
@@ -19785,7 +19785,7 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .ant-table-placeholder {
   min-height: 130px;
-  z-index: 0 !important;
+  z-index: 0;
 }
 
 .lightTheme div.account-creation {
@@ -19930,7 +19930,7 @@ label.ant-checkbox-wrapper > span {
 .lightTheme .header-container {
   background-color: #fff;
   box-shadow: 0 4px 9px 0 #00000015 !important;
-  z-index: 1;
+  z-index: 1010;
 }
 
 .lightTheme .header-container .menu-group .menu-bar li a {
@@ -22834,7 +22834,7 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .ant-table-placeholder {
   min-height: 130px;
-  z-index: 0 !important;
+  z-index: 0;
 }
 
 .midnightTheme div.account-creation {
@@ -22979,7 +22979,7 @@ label.ant-checkbox-wrapper > span {
 .midnightTheme .header-container {
   background-color: #30323b;
   box-shadow: 0 2px 9px 0 #30323b !important;
-  z-index: 1;
+  z-index: 1010;
 }
 
 .midnightTheme .header-container .menu-group .menu-bar li a {
