@@ -8817,6 +8817,22 @@ b {
   fill: #7bd500 !important;
 }
 
+.blue {
+  color: #4174b8 !important;
+}
+
+.blue .icon > svg > path {
+  fill: #4174b8 !important;
+}
+
+.grey {
+  color: #666666 !important;
+}
+
+.grey .icon > svg > path {
+  fill: #666666 !important;
+}
+
 .red {
   color: #e6001f !important;
 }
@@ -14741,11 +14757,19 @@ label.ant-checkbox-wrapper > span {
 
 .darkTheme .amount-selector-field .amount-selector-field--balance {
   float: right;
+}
+
+.darkTheme .amount-selector-field .amount-selector-field--balance .amount-selector-field--link {
   cursor: pointer;
 }
 
-.darkTheme .amount-selector-field .amount-selector-field--balance:hover {
+.darkTheme .amount-selector-field .amount-selector-field--balance .amount-selector-field--link:hover {
   color: #1ec3fa;
+}
+
+.darkTheme .input-group-unbordered-before > span > span:first-of-type {
+  background: none !important;
+  border: none !important;
 }
 
 .darkTheme .form-input-header .form-input-header--right {
@@ -17777,11 +17801,19 @@ label.ant-checkbox-wrapper > span {
 
 .lightTheme .amount-selector-field .amount-selector-field--balance {
   float: right;
+}
+
+.lightTheme .amount-selector-field .amount-selector-field--balance .amount-selector-field--link {
   cursor: pointer;
 }
 
-.lightTheme .amount-selector-field .amount-selector-field--balance:hover {
+.lightTheme .amount-selector-field .amount-selector-field--balance .amount-selector-field--link:hover {
   color: #337ab7;
+}
+
+.lightTheme .input-group-unbordered-before > span > span:first-of-type {
+  background: none !important;
+  border: none !important;
 }
 
 .lightTheme .form-input-header .form-input-header--right {
@@ -20826,11 +20858,19 @@ label.ant-checkbox-wrapper > span {
 
 .midnightTheme .amount-selector-field .amount-selector-field--balance {
   float: right;
+}
+
+.midnightTheme .amount-selector-field .amount-selector-field--balance .amount-selector-field--link {
   cursor: pointer;
 }
 
-.midnightTheme .amount-selector-field .amount-selector-field--balance:hover {
+.midnightTheme .amount-selector-field .amount-selector-field--balance .amount-selector-field--link:hover {
   color: #049cce;
+}
+
+.midnightTheme .input-group-unbordered-before > span > span:first-of-type {
+  background: none !important;
+  border: none !important;
 }
 
 .midnightTheme .form-input-header .form-input-header--right {
