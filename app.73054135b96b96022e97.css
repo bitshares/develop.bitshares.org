@@ -14895,6 +14895,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .darkTheme .txtlabel.cancel,
+.darkTheme .txtlabel.alert,
 .darkTheme .label.alert {
   color: #ff3950;
 }
@@ -17939,6 +17940,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .lightTheme .txtlabel.cancel,
+.lightTheme .txtlabel.alert,
 .lightTheme .label.alert {
   color: #e3745b;
 }
@@ -20996,6 +20998,7 @@ label.ant-checkbox-wrapper > span {
 }
 
 .midnightTheme .txtlabel.cancel,
+.midnightTheme .txtlabel.alert,
 .midnightTheme .label.alert {
   color: #e3745b;
 }
