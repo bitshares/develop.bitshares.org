@@ -9109,12 +9109,23 @@ div.header-selector > .selector div:last-of-type {
 }
 
 div.header-selector > .group-by {
-  float: right;
-  line-height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-div.header-selector > .group-by .text {
+div.header-selector > .filter-block {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+div.header-selector > .filter-block > .filter {
   margin-right: 10px;
+}
+
+div.header-selector > .action-buttons {
+  float: right;
 }
 
 div.account-tabs .padding {
