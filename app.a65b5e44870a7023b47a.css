@@ -9128,6 +9128,14 @@ div.header-selector > .action-buttons {
   float: right;
 }
 
+div.voting div.header-selector {
+  padding: 1rem;
+}
+
+div.voting span.search-input {
+  width: 220px;
+}
+
 div.account-tabs .padding {
   padding: 20px;
 }
