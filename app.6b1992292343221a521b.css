@@ -13950,6 +13950,14 @@ div.bordered-header {
   margin: 9px;
 }
 
+.json-link {
+  cursor: pointer;
+}
+
+.json-link .anticon {
+  padding-right: 5px;
+}
+
 /*
  * Ant Design SCSS Overrides
  *
