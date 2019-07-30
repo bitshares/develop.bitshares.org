@@ -14556,6 +14556,20 @@ label.ant-checkbox-wrapper > span {
   }
 }
 
+.customizable-column--selector {
+  position: absolute;
+  right: 1rem;
+  top: -3rem;
+}
+
+.customizable-column--selector--option {
+  padding: 10px;
+}
+
+.customizable-column--selector--option .ant-checkbox-wrapper {
+  width: 100%;
+}
+
 .darkTheme {
   /* Table view account */
 }
@@ -17599,6 +17613,20 @@ label.ant-checkbox-wrapper > span {
   .responsive-list > .help-content > ul li ul li {
     border: 0;
   }
+}
+
+.customizable-column--selector {
+  position: absolute;
+  right: 1rem;
+  top: -3rem;
+}
+
+.customizable-column--selector--option {
+  padding: 10px;
+}
+
+.customizable-column--selector--option .ant-checkbox-wrapper {
+  width: 100%;
 }
 
 .lightTheme {
@@ -20657,6 +20685,20 @@ label.ant-checkbox-wrapper > span {
   .responsive-list > .help-content > ul li ul li {
     border: 0;
   }
+}
+
+.customizable-column--selector {
+  position: absolute;
+  right: 1rem;
+  top: -3rem;
+}
+
+.customizable-column--selector--option {
+  padding: 10px;
+}
+
+.customizable-column--selector--option .ant-checkbox-wrapper {
+  width: 100%;
 }
 
 .midnightTheme {
