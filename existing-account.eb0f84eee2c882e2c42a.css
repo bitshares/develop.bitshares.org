@@ -6,5 +6,9 @@ div > div.asset-list {
   padding-bottom: 0.25rem;
 }
 
+.importError {
+  margin-bottom: 16px;
+}
+
 
 /*# sourceMappingURL=existing-account.js.map*/
