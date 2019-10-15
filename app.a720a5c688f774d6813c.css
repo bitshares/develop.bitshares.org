@@ -11622,6 +11622,19 @@ ul.dropdown.header-menu li.desktop-only {
   bottom: 0;
 }
 
+.loading-panel--child {
+  width: 340px;
+  height: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  padding-top: 110px;
+  top: 40%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .splash .loading-panel {
   left: -380px;
 }
@@ -12069,6 +12082,14 @@ ul.dropdown.header-menu li.desktop-only {
   border-style: solid;
   width: 100%;
   margin-bottom: 30px;
+}
+
+.node-selector--drop-down {
+  position: relative;
+}
+
+.node-selector--drop-down #rc-tree-select-list_1 {
+  height: 300px;
 }
 
 .pagination {
