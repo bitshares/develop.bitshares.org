@@ -10881,6 +10881,10 @@ div.account-image .icon.key > svg {
   width: 2.4rem !important;
 }
 
+.chain-select .ant-select {
+  width: 100%;
+}
+
 .asset-select .ant-select {
   width: 100%;
 }
@@ -13795,6 +13799,10 @@ div.registration .generated-password-section {
 
 .invoice-request-input :after {
   content: none !important;
+}
+
+.quick-trade .ant-input {
+  margin-right: 0px !important;
 }
 
 .lifetime {
