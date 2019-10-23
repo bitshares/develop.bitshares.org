@@ -123,7 +123,8 @@
             "total_ref": "Total referred %(total)s",
             "unknown": "Unknown member",
             "upgrade_lifetime": "Buy Lifetime Subscription",
-            "vested": "Vested"
+            "vested": "Vested",
+            "action": "Action"
         },
         "mine": "My account",
         "more": "see more",
@@ -478,6 +479,9 @@
     "assets": {
         "BTS": "BTS is the core token of the BitShares Blockchain"
     },
+    "errors": {
+        "loading_from_blockchain": "Error fetching form the blockchain, please retry."
+    },
     "boolean": {
         "false": "False",
         "true": "True"
@@ -568,6 +572,7 @@
         "call": "Call Price",
         "cancel_order_select_all": "Select all orders",
         "cancel_selected_orders": "Cancel selected order(s)",
+        "cancel_order_select_all": "Select all orders",
         "change": "Change",
         "chart_error": "Chart already exist",
         "chart_height": "Chart height (pixels)",
@@ -1143,7 +1148,6 @@
         "convert": "Internal conversion",
         "convert_coin": "Convert to %(coin)s (%(symbol)s)",
         "convert_now": "Convert now",
-        "logout_now": "Logout now",
         "copy_address": "Copy address",
         "copy_memo": "Copy memo",
         "deposit": "Deposit",
@@ -1187,6 +1191,7 @@
         "limit_withdraw_asset_max": "Maximum withdraw: %(min)s %(coin)s",
         "limit_withdraw_asset_min": "Minimum withdraw: %(min)s %(coin)s",
         "limit_withdraw_asset_none": "None",
+        "logout_now": "Logout now",
         "memo": "Memo",
         "meta": {
             "open_website": "Open Website"
