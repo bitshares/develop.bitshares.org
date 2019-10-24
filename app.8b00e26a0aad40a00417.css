@@ -14590,6 +14590,10 @@ div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical
   max-height: 100% !important;
 }
 
+.ant-table-tbody > tr.ant-table-row-selected td {
+  background-color: #4f596688 !important;
+}
+
 .darkTheme {
   /* Table view account */
 }
@@ -17718,6 +17722,10 @@ div.customizable-column--selector > .customizable-column--selector--option .ant-
 
 div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical {
   max-height: 100% !important;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected td {
+  background-color: #4f596688 !important;
 }
 
 .lightTheme {
@@ -20861,6 +20869,10 @@ div.customizable-column--selector > .customizable-column--selector--option .ant-
 
 div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical {
   max-height: 100% !important;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected td {
+  background-color: #4f596688 !important;
 }
 
 .midnightTheme {
