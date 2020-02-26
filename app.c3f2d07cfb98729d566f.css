@@ -11395,6 +11395,10 @@ div.header-right-menu > .grp-menu-item {
   }
 }
 
+ul.top-stats {
+  margin-bottom: 0px !important;
+}
+
 .grp-menu-items-group {
   flex-flow: row nowrap;
   display: flex;
