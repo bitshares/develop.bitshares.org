@@ -11060,6 +11060,14 @@ ul.dropdown.header-menu li.desktop-only {
   padding: 1rem 2rem 1rem 2rem;
 }
 
+.modal-table .ant-table .ant-table-placeholder {
+  min-height: 0;
+}
+
+.text-cursor .ant-calendar-picker-input {
+  cursor: text;
+}
+
 @media screen and (max-width: 600px) {
   .modal {
     width: 100%;
@@ -12853,6 +12861,14 @@ label.ant-checkbox-wrapper > span {
   text-transform: none !important;
 }
 
+.ant-table-header-column > div {
+  display: table;
+}
+
+.ant-table-body > table > thead {
+  height: 50px;
+}
+
 .registration-layout .registration-layout--copy-password-btn {
   position: absolute;
   right: 0;
@@ -14275,6 +14291,10 @@ div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical
 }
 .darkTheme .typeahead .typeahead__innerItem > .typeahead__innerItem__disabled {
   color: #949494;
+}
+.darkTheme ul.account-overview.segmented > li > a {
+  background: #2a2a2a !important;
+  border-right: none;
 }
 .darkTheme ul.button-group.segmented > li.is-active > a {
   background: #2d2d2d;
@@ -16778,6 +16798,10 @@ div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical
 .lightTheme .typeahead .typeahead__innerItem > .typeahead__innerItem__disabled {
   color: #636363;
 }
+.lightTheme ul.account-overview.segmented > li > a {
+  background: #fff !important;
+  border-right: none;
+}
 .lightTheme ul.button-group.segmented > li.is-active > a {
   background: #ebebeb;
   color: #242424;
@@ -19273,6 +19297,10 @@ div.customizable-column--selector--dropdown ul.ant-select-dropdown-menu-vertical
 }
 .midnightTheme .typeahead .typeahead__innerItem > .typeahead__innerItem__disabled {
   color: #7a7a7a;
+}
+.midnightTheme ul.account-overview.segmented > li > a {
+  background: #191a1f !important;
+  border-right: none;
 }
 .midnightTheme ul.button-group.segmented > li.is-active > a {
   background: #1b1c22;
