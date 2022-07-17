@@ -9104,12 +9104,12 @@ div#CenterContent {
 }
 .order-table.fixed-table {
   table-layout: fixed;
-  text-align: left;
+  text-align: right;
 }
 .order-table > thead > tr > th {
   font-size: 14px;
   padding: 5px 5px;
-  text-align: left !important;
+  text-align: right !important;
 }
 .order-table > tbody > tr > td {
   font-size: 12px;
