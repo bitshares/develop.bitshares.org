@@ -7955,12 +7955,12 @@ h6 {
 
 .json-inspector__key {
   font-family: "Lucida Console", Monaco, monospace !important;
-  text-transform: none;
+  text-transform: none !important;
 }
 
 .json-inspector__value {
   font-family: "Lucida Console", Monaco, monospace !important;
-  text-transform: none;
+  text-transform: none !important;
 }
 
 button,
